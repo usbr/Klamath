@@ -1,0 +1,3067 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <ns2:getForecastEquationsResponse xmlns:ns2="http://www.wcc.nrcs.usda.gov/ns/awdbWebService">
+      <return>
+        <comment>Calib. per. 1981-2015.  JR2=.397.  2 PCs.  D. Garen  31 Aug 2017</comment>
+        <dataSource>AWDB</dataSource>
+        <elementCd>SRVO</elementCd>
+        <equationTerms>
+          <coefficient>0.999999693279375</coefficient>
+          <dataPeriodDays>1</dataPeriodDays>
+          <dataPeriodMonth>17</dataPeriodMonth>
+          <dataYearFlag>C</dataYearFlag>
+          <stationElement>
+            <beginDate>1920-08-01 00:00:00</beginDate>
+            <dataPrecision>0</dataPrecision>
+            <dataSource>OBSERVED</dataSource>
+            <duration>MONTHLY</duration>
+            <elementCd>SRVO</elementCd>
+            <endDate>2100-01-01 00:00:00</endDate>
+            <ordinal>1</ordinal>
+            <originalUnitCd>ac_ft</originalUnitCd>
+            <stationTriplet>11501000:OR:USGS</stationTriplet>
+            <storedUnitCd>ac_ft</storedUnitCd>
+          </stationElement>
+          <unitCd>ac_ft</unitCd>
+          <upstreamForecast>true</upstreamForecast>
+        </equationTerms>
+        <equationTerms>
+          <coefficient>0.999998388733395</coefficient>
+          <dataPeriodDays>1</dataPeriodDays>
+          <dataPeriodMonth>17</dataPeriodMonth>
+          <dataYearFlag>C</dataYearFlag>
+          <stationElement>
+            <beginDate>1921-03-01 00:00:00</beginDate>
+            <dataPrecision>0</dataPrecision>
+            <dataSource>OBSERVED</dataSource>
+            <duration>MONTHLY</duration>
+            <elementCd>SRVO</elementCd>
+            <endDate>2100-01-01 00:00:00</endDate>
+            <ordinal>1</ordinal>
+            <originalUnitCd>ac_ft</originalUnitCd>
+            <stationTriplet>11502250:OR:USGS</stationTriplet>
+            <storedUnitCd>ac_ft</storedUnitCd>
+          </stationElement>
+          <unitCd>ac_ft</unitCd>
+          <upstreamForecast>true</upstreamForecast>
+        </equationTerms>
+        <forecastPeriod>JAN-JUL</forecastPeriod>
+        <forecastType>V</forecastType>
+        <functionArgument>0.0</functionArgument>
+        <interceptConstant>0.000561695325359324</interceptConstant>
+        <key>146774</key>
+        <maxOfRecord>1242.87471</maxOfRecord>
+        <minOfRecord>207.48098</minOfRecord>
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues>166.61194</monthlyStderrValues>
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <name>Williamson R bl Sprague R nr Chiloquin</name>
+        <publicationMonthsAndDays>
+          <day>1</day>
+          <month>1</month>
+        </publicationMonthsAndDays>
+        <published>true</published>
+        <stationTriplet>11502500:OR:USGS</stationTriplet>
+        <transformErrorsOnly>true</transformErrorsOnly>
+        <unitCd>kac_ft</unitCd>
+      </return>
+      <return>
+        <comment>Calib. per. 1981-2015.  JR2=.404.  2 PCs.  D. Garen  26 Dec 2016</comment>
+        <dataSource>AWDB</dataSource>
+        <elementCd>SRVO</elementCd>
+        <equationTerms>
+          <coefficient>1.0</coefficient>
+          <dataPeriodDays>1</dataPeriodDays>
+          <dataPeriodMonth>19</dataPeriodMonth>
+          <dataYearFlag>C</dataYearFlag>
+          <stationElement>
+            <beginDate>1920-08-01 00:00:00</beginDate>
+            <dataPrecision>0</dataPrecision>
+            <dataSource>OBSERVED</dataSource>
+            <duration>MONTHLY</duration>
+            <elementCd>SRVO</elementCd>
+            <endDate>2100-01-01 00:00:00</endDate>
+            <ordinal>1</ordinal>
+            <originalUnitCd>ac_ft</originalUnitCd>
+            <stationTriplet>11501000:OR:USGS</stationTriplet>
+            <storedUnitCd>ac_ft</storedUnitCd>
+          </stationElement>
+          <unitCd>ac_ft</unitCd>
+          <upstreamForecast>true</upstreamForecast>
+        </equationTerms>
+        <equationTerms>
+          <coefficient>1.0</coefficient>
+          <dataPeriodDays>1</dataPeriodDays>
+          <dataPeriodMonth>19</dataPeriodMonth>
+          <dataYearFlag>C</dataYearFlag>
+          <stationElement>
+            <beginDate>1921-03-01 00:00:00</beginDate>
+            <dataPrecision>0</dataPrecision>
+            <dataSource>OBSERVED</dataSource>
+            <duration>MONTHLY</duration>
+            <elementCd>SRVO</elementCd>
+            <endDate>2100-01-01 00:00:00</endDate>
+            <ordinal>1</ordinal>
+            <originalUnitCd>ac_ft</originalUnitCd>
+            <stationTriplet>11502250:OR:USGS</stationTriplet>
+            <storedUnitCd>ac_ft</storedUnitCd>
+          </stationElement>
+          <unitCd>ac_ft</unitCd>
+          <upstreamForecast>true</upstreamForecast>
+        </equationTerms>
+        <forecastPeriod>JAN-SEP</forecastPeriod>
+        <forecastType>V</forecastType>
+        <functionArgument>0.0</functionArgument>
+        <interceptConstant>0.0</interceptConstant>
+        <key>146748</key>
+        <maxOfRecord>1347.0</maxOfRecord>
+        <minOfRecord>251.08</minOfRecord>
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues>172.20066</monthlyStderrValues>
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <name>Williamson R bl Sprague R nr Chiloquin</name>
+        <publicationMonthsAndDays>
+          <day>1</day>
+          <month>1</month>
+        </publicationMonthsAndDays>
+        <published>true</published>
+        <stationTriplet>11502500:OR:USGS</stationTriplet>
+        <transformErrorsOnly>true</transformErrorsOnly>
+        <unitCd>kac_ft</unitCd>
+      </return>
+      <return>
+        <comment>Calib. per. 1981-2015.  JR2=.345.  2 PCs.  D. Garen  26 Dec 2016</comment>
+        <dataSource>AWDB</dataSource>
+        <elementCd>SRVO</elementCd>
+        <equationTerms>
+          <coefficient>1.0</coefficient>
+          <dataPeriodDays>1</dataPeriodDays>
+          <dataPeriodMonth>27</dataPeriodMonth>
+          <dataYearFlag>C</dataYearFlag>
+          <stationElement>
+            <beginDate>1920-08-01 00:00:00</beginDate>
+            <dataPrecision>0</dataPrecision>
+            <dataSource>OBSERVED</dataSource>
+            <duration>MONTHLY</duration>
+            <elementCd>SRVO</elementCd>
+            <endDate>2100-01-01 00:00:00</endDate>
+            <ordinal>1</ordinal>
+            <originalUnitCd>ac_ft</originalUnitCd>
+            <stationTriplet>11501000:OR:USGS</stationTriplet>
+            <storedUnitCd>ac_ft</storedUnitCd>
+          </stationElement>
+          <unitCd>ac_ft</unitCd>
+          <upstreamForecast>true</upstreamForecast>
+        </equationTerms>
+        <equationTerms>
+          <coefficient>1.0</coefficient>
+          <dataPeriodDays>1</dataPeriodDays>
+          <dataPeriodMonth>27</dataPeriodMonth>
+          <dataYearFlag>C</dataYearFlag>
+          <stationElement>
+            <beginDate>1921-03-01 00:00:00</beginDate>
+            <dataPrecision>0</dataPrecision>
+            <dataSource>OBSERVED</dataSource>
+            <duration>MONTHLY</duration>
+            <elementCd>SRVO</elementCd>
+            <endDate>2100-01-01 00:00:00</endDate>
+            <ordinal>1</ordinal>
+            <originalUnitCd>ac_ft</originalUnitCd>
+            <stationTriplet>11502250:OR:USGS</stationTriplet>
+            <storedUnitCd>ac_ft</storedUnitCd>
+          </stationElement>
+          <unitCd>ac_ft</unitCd>
+          <upstreamForecast>true</upstreamForecast>
+        </equationTerms>
+        <forecastPeriod>FEB-JUL</forecastPeriod>
+        <forecastType>V</forecastType>
+        <functionArgument>0.0</functionArgument>
+        <interceptConstant>0.0</interceptConstant>
+        <key>126858</key>
+        <maxOfRecord>1056.19</maxOfRecord>
+        <minOfRecord>172.81</minOfRecord>
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues>157.88377</monthlyStderrValues>
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <name>Williamson R bl Sprague R nr Chiloquin</name>
+        <publicationMonthsAndDays>
+          <day>1</day>
+          <month>1</month>
+        </publicationMonthsAndDays>
+        <published>true</published>
+        <stationTriplet>11502500:OR:USGS</stationTriplet>
+        <transformErrorsOnly>true</transformErrorsOnly>
+        <unitCd>kac_ft</unitCd>
+      </return>
+      <return>
+        <comment>Calib. per. 1981-2015.  JR2=.629.  2 PCs.  D. Garen  26 Dec 2016</comment>
+        <dataSource>AWDB</dataSource>
+        <elementCd>SRVO</elementCd>
+        <equationTerms>
+          <coefficient>0.999999652171366</coefficient>
+          <dataPeriodDays>1</dataPeriodDays>
+          <dataPeriodMonth>27</dataPeriodMonth>
+          <dataYearFlag>C</dataYearFlag>
+          <stationElement>
+            <beginDate>1920-08-01 00:00:00</beginDate>
+            <dataPrecision>0</dataPrecision>
+            <dataSource>OBSERVED</dataSource>
+            <duration>MONTHLY</duration>
+            <elementCd>SRVO</elementCd>
+            <endDate>2100-01-01 00:00:00</endDate>
+            <ordinal>1</ordinal>
+            <originalUnitCd>ac_ft</originalUnitCd>
+            <stationTriplet>11501000:OR:USGS</stationTriplet>
+            <storedUnitCd>ac_ft</storedUnitCd>
+          </stationElement>
+          <unitCd>ac_ft</unitCd>
+          <upstreamForecast>true</upstreamForecast>
+        </equationTerms>
+        <equationTerms>
+          <coefficient>0.999998057973789</coefficient>
+          <dataPeriodDays>1</dataPeriodDays>
+          <dataPeriodMonth>27</dataPeriodMonth>
+          <dataYearFlag>C</dataYearFlag>
+          <stationElement>
+            <beginDate>1921-03-01 00:00:00</beginDate>
+            <dataPrecision>0</dataPrecision>
+            <dataSource>OBSERVED</dataSource>
+            <duration>MONTHLY</duration>
+            <elementCd>SRVO</elementCd>
+            <endDate>2100-01-01 00:00:00</endDate>
+            <ordinal>1</ordinal>
+            <originalUnitCd>ac_ft</originalUnitCd>
+            <stationTriplet>11502250:OR:USGS</stationTriplet>
+            <storedUnitCd>ac_ft</storedUnitCd>
+          </stationElement>
+          <unitCd>ac_ft</unitCd>
+          <upstreamForecast>true</upstreamForecast>
+        </equationTerms>
+        <forecastPeriod>FEB-JUL</forecastPeriod>
+        <forecastType>V</forecastType>
+        <functionArgument>0.0</functionArgument>
+        <interceptConstant>0.000598544606759788</interceptConstant>
+        <key>146749</key>
+        <maxOfRecord>1056.19041</maxOfRecord>
+        <minOfRecord>172.80991</minOfRecord>
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues>118.87873</monthlyStderrValues>
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <name>Williamson R bl Sprague R nr Chiloquin</name>
+        <publicationMonthsAndDays>
+          <day>1</day>
+          <month>2</month>
+        </publicationMonthsAndDays>
+        <published>true</published>
+        <stationTriplet>11502500:OR:USGS</stationTriplet>
+        <transformErrorsOnly>true</transformErrorsOnly>
+        <unitCd>kac_ft</unitCd>
+      </return>
+      <return>
+        <comment>Calib. per. 1981-2015.  JR2=.447.  2 PCs.  D. Garen  27 Dec 2016</comment>
+        <dataSource>AWDB</dataSource>
+        <elementCd>SRVO</elementCd>
+        <equationTerms>
+          <coefficient>0.999999652171366</coefficient>
+          <dataPeriodDays>1</dataPeriodDays>
+          <dataPeriodMonth>27</dataPeriodMonth>
+          <dataYearFlag>C</dataYearFlag>
+          <stationElement>
+            <beginDate>1920-08-01 00:00:00</beginDate>
+            <dataPrecision>0</dataPrecision>
+            <dataSource>OBSERVED</dataSource>
+            <duration>MONTHLY</duration>
+            <elementCd>SRVO</elementCd>
+            <endDate>2100-01-01 00:00:00</endDate>
+            <ordinal>1</ordinal>
+            <originalUnitCd>ac_ft</originalUnitCd>
+            <stationTriplet>11501000:OR:USGS</stationTriplet>
+            <storedUnitCd>ac_ft</storedUnitCd>
+          </stationElement>
+          <unitCd>ac_ft</unitCd>
+          <upstreamForecast>true</upstreamForecast>
+        </equationTerms>
+        <equationTerms>
+          <coefficient>0.999998057973789</coefficient>
+          <dataPeriodDays>1</dataPeriodDays>
+          <dataPeriodMonth>27</dataPeriodMonth>
+          <dataYearFlag>C</dataYearFlag>
+          <stationElement>
+            <beginDate>1921-03-01 00:00:00</beginDate>
+            <dataPrecision>0</dataPrecision>
+            <dataSource>OBSERVED</dataSource>
+            <duration>MONTHLY</duration>
+            <elementCd>SRVO</elementCd>
+            <endDate>2100-01-01 00:00:00</endDate>
+            <ordinal>1</ordinal>
+            <originalUnitCd>ac_ft</originalUnitCd>
+            <stationTriplet>11502250:OR:USGS</stationTriplet>
+            <storedUnitCd>ac_ft</storedUnitCd>
+          </stationElement>
+          <unitCd>ac_ft</unitCd>
+          <upstreamForecast>true</upstreamForecast>
+        </equationTerms>
+        <forecastPeriod>FEB-JUL</forecastPeriod>
+        <forecastType>V</forecastType>
+        <functionArgument>0.0</functionArgument>
+        <interceptConstant>0.000598544606759788</interceptConstant>
+        <key>146763</key>
+        <maxOfRecord>1056.19041</maxOfRecord>
+        <minOfRecord>172.80991</minOfRecord>
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues>144.86608</monthlyStderrValues>
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <name>Williamson R bl Sprague R nr Chiloquin</name>
+        <publicationMonthsAndDays>
+          <day>15</day>
+          <month>1</month>
+        </publicationMonthsAndDays>
+        <published>true</published>
+        <stationTriplet>11502500:OR:USGS</stationTriplet>
+        <transformErrorsOnly>true</transformErrorsOnly>
+        <unitCd>kac_ft</unitCd>
+      </return>
+      <return>
+        <comment>Calib. per. 1981-2015.  JR2=.622.  2 PCs.  D. Garen  26 Dec 2016</comment>
+        <dataSource>AWDB</dataSource>
+        <elementCd>SRVO</elementCd>
+        <equationTerms>
+          <coefficient>0.999999763099023</coefficient>
+          <dataPeriodDays>1</dataPeriodDays>
+          <dataPeriodMonth>29</dataPeriodMonth>
+          <dataYearFlag>C</dataYearFlag>
+          <stationElement>
+            <beginDate>1920-08-01 00:00:00</beginDate>
+            <dataPrecision>0</dataPrecision>
+            <dataSource>OBSERVED</dataSource>
+            <duration>MONTHLY</duration>
+            <elementCd>SRVO</elementCd>
+            <endDate>2100-01-01 00:00:00</endDate>
+            <ordinal>1</ordinal>
+            <originalUnitCd>ac_ft</originalUnitCd>
+            <stationTriplet>11501000:OR:USGS</stationTriplet>
+            <storedUnitCd>ac_ft</storedUnitCd>
+          </stationElement>
+          <unitCd>ac_ft</unitCd>
+          <upstreamForecast>true</upstreamForecast>
+        </equationTerms>
+        <equationTerms>
+          <coefficient>1.00000096466571</coefficient>
+          <dataPeriodDays>1</dataPeriodDays>
+          <dataPeriodMonth>29</dataPeriodMonth>
+          <dataYearFlag>C</dataYearFlag>
+          <stationElement>
+            <beginDate>1921-03-01 00:00:00</beginDate>
+            <dataPrecision>0</dataPrecision>
+            <dataSource>OBSERVED</dataSource>
+            <duration>MONTHLY</duration>
+            <elementCd>SRVO</elementCd>
+            <endDate>2100-01-01 00:00:00</endDate>
+            <ordinal>1</ordinal>
+            <originalUnitCd>ac_ft</originalUnitCd>
+            <stationTriplet>11502250:OR:USGS</stationTriplet>
+            <storedUnitCd>ac_ft</storedUnitCd>
+          </stationElement>
+          <unitCd>ac_ft</unitCd>
+          <upstreamForecast>true</upstreamForecast>
+        </equationTerms>
+        <forecastPeriod>FEB-SEP</forecastPeriod>
+        <forecastType>V</forecastType>
+        <functionArgument>0.0</functionArgument>
+        <interceptConstant>-0.00000382179371172242</interceptConstant>
+        <key>146751</key>
+        <maxOfRecord>1160.31272</maxOfRecord>
+        <minOfRecord>216.41256</minOfRecord>
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues>125.4558</monthlyStderrValues>
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <name>Williamson R bl Sprague R nr Chiloquin</name>
+        <publicationMonthsAndDays>
+          <day>1</day>
+          <month>2</month>
+        </publicationMonthsAndDays>
+        <published>true</published>
+        <stationTriplet>11502500:OR:USGS</stationTriplet>
+        <transformErrorsOnly>true</transformErrorsOnly>
+        <unitCd>kac_ft</unitCd>
+      </return>
+      <return>
+        <comment>Calib. per. 1981-2015.  JR2=.355.  2 PCs.  D. Garen  26 Dec 2016</comment>
+        <dataSource>AWDB</dataSource>
+        <elementCd>SRVO</elementCd>
+        <equationTerms>
+          <coefficient>1.0</coefficient>
+          <dataPeriodDays>1</dataPeriodDays>
+          <dataPeriodMonth>29</dataPeriodMonth>
+          <dataYearFlag>C</dataYearFlag>
+          <stationElement>
+            <beginDate>1920-08-01 00:00:00</beginDate>
+            <dataPrecision>0</dataPrecision>
+            <dataSource>OBSERVED</dataSource>
+            <duration>MONTHLY</duration>
+            <elementCd>SRVO</elementCd>
+            <endDate>2100-01-01 00:00:00</endDate>
+            <ordinal>1</ordinal>
+            <originalUnitCd>ac_ft</originalUnitCd>
+            <stationTriplet>11501000:OR:USGS</stationTriplet>
+            <storedUnitCd>ac_ft</storedUnitCd>
+          </stationElement>
+          <unitCd>ac_ft</unitCd>
+          <upstreamForecast>true</upstreamForecast>
+        </equationTerms>
+        <equationTerms>
+          <coefficient>1.0</coefficient>
+          <dataPeriodDays>1</dataPeriodDays>
+          <dataPeriodMonth>29</dataPeriodMonth>
+          <dataYearFlag>C</dataYearFlag>
+          <stationElement>
+            <beginDate>1921-03-01 00:00:00</beginDate>
+            <dataPrecision>0</dataPrecision>
+            <dataSource>OBSERVED</dataSource>
+            <duration>MONTHLY</duration>
+            <elementCd>SRVO</elementCd>
+            <endDate>2100-01-01 00:00:00</endDate>
+            <ordinal>1</ordinal>
+            <originalUnitCd>ac_ft</originalUnitCd>
+            <stationTriplet>11502250:OR:USGS</stationTriplet>
+            <storedUnitCd>ac_ft</storedUnitCd>
+          </stationElement>
+          <unitCd>ac_ft</unitCd>
+          <upstreamForecast>true</upstreamForecast>
+        </equationTerms>
+        <forecastPeriod>FEB-SEP</forecastPeriod>
+        <forecastType>V</forecastType>
+        <functionArgument>0.0</functionArgument>
+        <interceptConstant>0.0</interceptConstant>
+        <key>126860</key>
+        <maxOfRecord>1160.31</maxOfRecord>
+        <minOfRecord>216.41</minOfRecord>
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues>163.8817</monthlyStderrValues>
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <name>Williamson R bl Sprague R nr Chiloquin</name>
+        <publicationMonthsAndDays>
+          <day>1</day>
+          <month>1</month>
+        </publicationMonthsAndDays>
+        <published>false</published>
+        <stationTriplet>11502500:OR:USGS</stationTriplet>
+        <transformErrorsOnly>true</transformErrorsOnly>
+        <unitCd>kac_ft</unitCd>
+      </return>
+      <return>
+        <comment>Calib. per. 1981-2015.  JR2=.450.  2 PCs.  D. Garen  27 Dec 2016</comment>
+        <dataSource>AWDB</dataSource>
+        <elementCd>SRVO</elementCd>
+        <equationTerms>
+          <coefficient>0.999999763099023</coefficient>
+          <dataPeriodDays>1</dataPeriodDays>
+          <dataPeriodMonth>29</dataPeriodMonth>
+          <dataYearFlag>C</dataYearFlag>
+          <stationElement>
+            <beginDate>1920-08-01 00:00:00</beginDate>
+            <dataPrecision>0</dataPrecision>
+            <dataSource>OBSERVED</dataSource>
+            <duration>MONTHLY</duration>
+            <elementCd>SRVO</elementCd>
+            <endDate>2100-01-01 00:00:00</endDate>
+            <ordinal>1</ordinal>
+            <originalUnitCd>ac_ft</originalUnitCd>
+            <stationTriplet>11501000:OR:USGS</stationTriplet>
+            <storedUnitCd>ac_ft</storedUnitCd>
+          </stationElement>
+          <unitCd>ac_ft</unitCd>
+          <upstreamForecast>true</upstreamForecast>
+        </equationTerms>
+        <equationTerms>
+          <coefficient>1.00000096466571</coefficient>
+          <dataPeriodDays>1</dataPeriodDays>
+          <dataPeriodMonth>29</dataPeriodMonth>
+          <dataYearFlag>C</dataYearFlag>
+          <stationElement>
+            <beginDate>1921-03-01 00:00:00</beginDate>
+            <dataPrecision>0</dataPrecision>
+            <dataSource>OBSERVED</dataSource>
+            <duration>MONTHLY</duration>
+            <elementCd>SRVO</elementCd>
+            <endDate>2100-01-01 00:00:00</endDate>
+            <ordinal>1</ordinal>
+            <originalUnitCd>ac_ft</originalUnitCd>
+            <stationTriplet>11502250:OR:USGS</stationTriplet>
+            <storedUnitCd>ac_ft</storedUnitCd>
+          </stationElement>
+          <unitCd>ac_ft</unitCd>
+          <upstreamForecast>true</upstreamForecast>
+        </equationTerms>
+        <forecastPeriod>FEB-SEP</forecastPeriod>
+        <forecastType>V</forecastType>
+        <functionArgument>0.0</functionArgument>
+        <interceptConstant>-0.00000382179371172242</interceptConstant>
+        <key>146765</key>
+        <maxOfRecord>1160.31272</maxOfRecord>
+        <minOfRecord>216.41256</minOfRecord>
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues>151.11692</monthlyStderrValues>
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <name>Williamson R bl Sprague R nr Chiloquin</name>
+        <publicationMonthsAndDays>
+          <day>15</day>
+          <month>1</month>
+        </publicationMonthsAndDays>
+        <published>true</published>
+        <stationTriplet>11502500:OR:USGS</stationTriplet>
+        <transformErrorsOnly>true</transformErrorsOnly>
+        <unitCd>kac_ft</unitCd>
+      </return>
+      <return>
+        <comment>Calib. per. 1981-2015.  JR2=.750.  2 PCs.  D. Garen  26 Dec 2016</comment>
+        <dataSource>AWDB</dataSource>
+        <elementCd>SRVO</elementCd>
+        <equationTerms>
+          <coefficient>0.999999760925493</coefficient>
+          <dataPeriodDays>1</dataPeriodDays>
+          <dataPeriodMonth>37</dataPeriodMonth>
+          <dataYearFlag>C</dataYearFlag>
+          <stationElement>
+            <beginDate>1920-08-01 00:00:00</beginDate>
+            <dataPrecision>0</dataPrecision>
+            <dataSource>OBSERVED</dataSource>
+            <duration>MONTHLY</duration>
+            <elementCd>SRVO</elementCd>
+            <endDate>2100-01-01 00:00:00</endDate>
+            <ordinal>1</ordinal>
+            <originalUnitCd>ac_ft</originalUnitCd>
+            <stationTriplet>11501000:OR:USGS</stationTriplet>
+            <storedUnitCd>ac_ft</storedUnitCd>
+          </stationElement>
+          <unitCd>ac_ft</unitCd>
+          <upstreamForecast>true</upstreamForecast>
+        </equationTerms>
+        <equationTerms>
+          <coefficient>0.999998738135952</coefficient>
+          <dataPeriodDays>1</dataPeriodDays>
+          <dataPeriodMonth>37</dataPeriodMonth>
+          <dataYearFlag>C</dataYearFlag>
+          <stationElement>
+            <beginDate>1921-03-01 00:00:00</beginDate>
+            <dataPrecision>0</dataPrecision>
+            <dataSource>OBSERVED</dataSource>
+            <duration>MONTHLY</duration>
+            <elementCd>SRVO</elementCd>
+            <endDate>2100-01-01 00:00:00</endDate>
+            <ordinal>1</ordinal>
+            <originalUnitCd>ac_ft</originalUnitCd>
+            <stationTriplet>11502250:OR:USGS</stationTriplet>
+            <storedUnitCd>ac_ft</storedUnitCd>
+          </stationElement>
+          <unitCd>ac_ft</unitCd>
+          <upstreamForecast>true</upstreamForecast>
+        </equationTerms>
+        <forecastPeriod>MAR-JUL</forecastPeriod>
+        <forecastType>V</forecastType>
+        <functionArgument>0.0</functionArgument>
+        <interceptConstant>0.000326807072724478</interceptConstant>
+        <key>146753</key>
+        <maxOfRecord>958.76231</maxOfRecord>
+        <minOfRecord>139.13851</minOfRecord>
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues>87.10782</monthlyStderrValues>
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <name>Williamson R bl Sprague R nr Chiloquin</name>
+        <publicationMonthsAndDays>
+          <day>1</day>
+          <month>3</month>
+        </publicationMonthsAndDays>
+        <published>true</published>
+        <stationTriplet>11502500:OR:USGS</stationTriplet>
+        <transformErrorsOnly>true</transformErrorsOnly>
+        <unitCd>kac_ft</unitCd>
+      </return>
+      <return>
+        <comment>Calib. per. 1981-2015.  JR2=.716.  2 PCs.  D. Garen  27 Dec 2016</comment>
+        <dataSource>AWDB</dataSource>
+        <elementCd>SRVO</elementCd>
+        <equationTerms>
+          <coefficient>0.999999760925493</coefficient>
+          <dataPeriodDays>1</dataPeriodDays>
+          <dataPeriodMonth>37</dataPeriodMonth>
+          <dataYearFlag>C</dataYearFlag>
+          <stationElement>
+            <beginDate>1920-08-01 00:00:00</beginDate>
+            <dataPrecision>0</dataPrecision>
+            <dataSource>OBSERVED</dataSource>
+            <duration>MONTHLY</duration>
+            <elementCd>SRVO</elementCd>
+            <endDate>2100-01-01 00:00:00</endDate>
+            <ordinal>1</ordinal>
+            <originalUnitCd>ac_ft</originalUnitCd>
+            <stationTriplet>11501000:OR:USGS</stationTriplet>
+            <storedUnitCd>ac_ft</storedUnitCd>
+          </stationElement>
+          <unitCd>ac_ft</unitCd>
+          <upstreamForecast>true</upstreamForecast>
+        </equationTerms>
+        <equationTerms>
+          <coefficient>0.999998738135952</coefficient>
+          <dataPeriodDays>1</dataPeriodDays>
+          <dataPeriodMonth>37</dataPeriodMonth>
+          <dataYearFlag>C</dataYearFlag>
+          <stationElement>
+            <beginDate>1921-03-01 00:00:00</beginDate>
+            <dataPrecision>0</dataPrecision>
+            <dataSource>OBSERVED</dataSource>
+            <duration>MONTHLY</duration>
+            <elementCd>SRVO</elementCd>
+            <endDate>2100-01-01 00:00:00</endDate>
+            <ordinal>1</ordinal>
+            <originalUnitCd>ac_ft</originalUnitCd>
+            <stationTriplet>11502250:OR:USGS</stationTriplet>
+            <storedUnitCd>ac_ft</storedUnitCd>
+          </stationElement>
+          <unitCd>ac_ft</unitCd>
+          <upstreamForecast>true</upstreamForecast>
+        </equationTerms>
+        <forecastPeriod>MAR-JUL</forecastPeriod>
+        <forecastType>V</forecastType>
+        <functionArgument>0.0</functionArgument>
+        <interceptConstant>0.000326807072724478</interceptConstant>
+        <key>146768</key>
+        <maxOfRecord>958.76231</maxOfRecord>
+        <minOfRecord>139.13851</minOfRecord>
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues>92.75032</monthlyStderrValues>
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <name>Williamson R bl Sprague R nr Chiloquin</name>
+        <publicationMonthsAndDays>
+          <day>15</day>
+          <month>2</month>
+        </publicationMonthsAndDays>
+        <published>true</published>
+        <stationTriplet>11502500:OR:USGS</stationTriplet>
+        <transformErrorsOnly>true</transformErrorsOnly>
+        <unitCd>kac_ft</unitCd>
+      </return>
+      <return>
+        <comment>D. Garen  26 Dec 2016</comment>
+        <dataSource>AWDB</dataSource>
+        <elementCd>SRVO</elementCd>
+        <equationTerms>
+          <coefficient>0.999999775368293</coefficient>
+          <dataPeriodDays>1</dataPeriodDays>
+          <dataPeriodMonth>39</dataPeriodMonth>
+          <dataYearFlag>C</dataYearFlag>
+          <stationElement>
+            <beginDate>1920-08-01 00:00:00</beginDate>
+            <dataPrecision>0</dataPrecision>
+            <dataSource>OBSERVED</dataSource>
+            <duration>MONTHLY</duration>
+            <elementCd>SRVO</elementCd>
+            <endDate>2100-01-01 00:00:00</endDate>
+            <ordinal>1</ordinal>
+            <originalUnitCd>ac_ft</originalUnitCd>
+            <stationTriplet>11501000:OR:USGS</stationTriplet>
+            <storedUnitCd>ac_ft</storedUnitCd>
+          </stationElement>
+          <unitCd>ac_ft</unitCd>
+          <upstreamForecast>true</upstreamForecast>
+        </equationTerms>
+        <equationTerms>
+          <coefficient>0.999999929877198</coefficient>
+          <dataPeriodDays>1</dataPeriodDays>
+          <dataPeriodMonth>39</dataPeriodMonth>
+          <dataYearFlag>C</dataYearFlag>
+          <stationElement>
+            <beginDate>1921-03-01 00:00:00</beginDate>
+            <dataPrecision>0</dataPrecision>
+            <dataSource>OBSERVED</dataSource>
+            <duration>MONTHLY</duration>
+            <elementCd>SRVO</elementCd>
+            <endDate>2100-01-01 00:00:00</endDate>
+            <ordinal>1</ordinal>
+            <originalUnitCd>ac_ft</originalUnitCd>
+            <stationTriplet>11502250:OR:USGS</stationTriplet>
+            <storedUnitCd>ac_ft</storedUnitCd>
+          </stationElement>
+          <unitCd>ac_ft</unitCd>
+          <upstreamForecast>true</upstreamForecast>
+        </equationTerms>
+        <forecastPeriod>MAR-SEP</forecastPeriod>
+        <forecastType>V</forecastType>
+        <functionArgument>0.0</functionArgument>
+        <interceptConstant>0.000145432091358089</interceptConstant>
+        <key>126868</key>
+        <maxOfRecord>1062.88462</maxOfRecord>
+        <minOfRecord>182.74116</minOfRecord>
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues>111.32844</monthlyStderrValues>
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <name>Williamson R bl Sprague R nr Chiloquin</name>
+        <publicationMonthsAndDays>
+          <day>1</day>
+          <month>2</month>
+        </publicationMonthsAndDays>
+        <published>true</published>
+        <stationTriplet>11502500:OR:USGS</stationTriplet>
+        <transformErrorsOnly>true</transformErrorsOnly>
+        <unitCd>kac_ft</unitCd>
+      </return>
+      <return>
+        <comment>Calib. per. 1981-2015.  JR2=.748.  2 PCs.  D. Garen  26 Dec 2016</comment>
+        <dataSource>AWDB</dataSource>
+        <elementCd>SRVO</elementCd>
+        <equationTerms>
+          <coefficient>0.999999775368293</coefficient>
+          <dataPeriodDays>1</dataPeriodDays>
+          <dataPeriodMonth>39</dataPeriodMonth>
+          <dataYearFlag>C</dataYearFlag>
+          <stationElement>
+            <beginDate>1920-08-01 00:00:00</beginDate>
+            <dataPrecision>0</dataPrecision>
+            <dataSource>OBSERVED</dataSource>
+            <duration>MONTHLY</duration>
+            <elementCd>SRVO</elementCd>
+            <endDate>2100-01-01 00:00:00</endDate>
+            <ordinal>1</ordinal>
+            <originalUnitCd>ac_ft</originalUnitCd>
+            <stationTriplet>11501000:OR:USGS</stationTriplet>
+            <storedUnitCd>ac_ft</storedUnitCd>
+          </stationElement>
+          <unitCd>ac_ft</unitCd>
+          <upstreamForecast>true</upstreamForecast>
+        </equationTerms>
+        <equationTerms>
+          <coefficient>0.999999929877198</coefficient>
+          <dataPeriodDays>1</dataPeriodDays>
+          <dataPeriodMonth>39</dataPeriodMonth>
+          <dataYearFlag>C</dataYearFlag>
+          <stationElement>
+            <beginDate>1921-03-01 00:00:00</beginDate>
+            <dataPrecision>0</dataPrecision>
+            <dataSource>OBSERVED</dataSource>
+            <duration>MONTHLY</duration>
+            <elementCd>SRVO</elementCd>
+            <endDate>2100-01-01 00:00:00</endDate>
+            <ordinal>1</ordinal>
+            <originalUnitCd>ac_ft</originalUnitCd>
+            <stationTriplet>11502250:OR:USGS</stationTriplet>
+            <storedUnitCd>ac_ft</storedUnitCd>
+          </stationElement>
+          <unitCd>ac_ft</unitCd>
+          <upstreamForecast>true</upstreamForecast>
+        </equationTerms>
+        <forecastPeriod>MAR-SEP</forecastPeriod>
+        <forecastType>V</forecastType>
+        <functionArgument>0.0</functionArgument>
+        <interceptConstant>0.000145432091358089</interceptConstant>
+        <key>146755</key>
+        <maxOfRecord>1062.88462</maxOfRecord>
+        <minOfRecord>182.74116</minOfRecord>
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues>91.9299</monthlyStderrValues>
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <name>Williamson R bl Sprague R nr Chiloquin</name>
+        <publicationMonthsAndDays>
+          <day>1</day>
+          <month>3</month>
+        </publicationMonthsAndDays>
+        <published>true</published>
+        <stationTriplet>11502500:OR:USGS</stationTriplet>
+        <transformErrorsOnly>true</transformErrorsOnly>
+        <unitCd>kac_ft</unitCd>
+      </return>
+      <return>
+        <comment>D. Garen  26 Dec 2016</comment>
+        <dataSource>AWDB</dataSource>
+        <elementCd>SRVO</elementCd>
+        <equationTerms>
+          <coefficient>1.0</coefficient>
+          <dataPeriodDays>1</dataPeriodDays>
+          <dataPeriodMonth>39</dataPeriodMonth>
+          <dataYearFlag>C</dataYearFlag>
+          <stationElement>
+            <beginDate>1920-08-01 00:00:00</beginDate>
+            <dataPrecision>0</dataPrecision>
+            <dataSource>OBSERVED</dataSource>
+            <duration>MONTHLY</duration>
+            <elementCd>SRVO</elementCd>
+            <endDate>2100-01-01 00:00:00</endDate>
+            <ordinal>1</ordinal>
+            <originalUnitCd>ac_ft</originalUnitCd>
+            <stationTriplet>11501000:OR:USGS</stationTriplet>
+            <storedUnitCd>ac_ft</storedUnitCd>
+          </stationElement>
+          <unitCd>ac_ft</unitCd>
+          <upstreamForecast>true</upstreamForecast>
+        </equationTerms>
+        <equationTerms>
+          <coefficient>1.0</coefficient>
+          <dataPeriodDays>1</dataPeriodDays>
+          <dataPeriodMonth>39</dataPeriodMonth>
+          <dataYearFlag>C</dataYearFlag>
+          <stationElement>
+            <beginDate>1921-03-01 00:00:00</beginDate>
+            <dataPrecision>0</dataPrecision>
+            <dataSource>OBSERVED</dataSource>
+            <duration>MONTHLY</duration>
+            <elementCd>SRVO</elementCd>
+            <endDate>2100-01-01 00:00:00</endDate>
+            <ordinal>1</ordinal>
+            <originalUnitCd>ac_ft</originalUnitCd>
+            <stationTriplet>11502250:OR:USGS</stationTriplet>
+            <storedUnitCd>ac_ft</storedUnitCd>
+          </stationElement>
+          <unitCd>ac_ft</unitCd>
+          <upstreamForecast>true</upstreamForecast>
+        </equationTerms>
+        <forecastPeriod>MAR-SEP</forecastPeriod>
+        <forecastType>V</forecastType>
+        <functionArgument>0.0</functionArgument>
+        <interceptConstant>0.0</interceptConstant>
+        <key>126863</key>
+        <maxOfRecord>1062.88</maxOfRecord>
+        <minOfRecord>182.74</minOfRecord>
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues>144.14883</monthlyStderrValues>
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <name>Williamson R bl Sprague R nr Chiloquin</name>
+        <publicationMonthsAndDays>
+          <day>1</day>
+          <month>1</month>
+        </publicationMonthsAndDays>
+        <published>false</published>
+        <stationTriplet>11502500:OR:USGS</stationTriplet>
+        <transformErrorsOnly>true</transformErrorsOnly>
+        <unitCd>kac_ft</unitCd>
+      </return>
+      <return>
+        <comment>D. Garen  27 Dec 2016</comment>
+        <dataSource>AWDB</dataSource>
+        <elementCd>SRVO</elementCd>
+        <equationTerms>
+          <coefficient>0.999999775368293</coefficient>
+          <dataPeriodDays>1</dataPeriodDays>
+          <dataPeriodMonth>39</dataPeriodMonth>
+          <dataYearFlag>C</dataYearFlag>
+          <stationElement>
+            <beginDate>1920-08-01 00:00:00</beginDate>
+            <dataPrecision>0</dataPrecision>
+            <dataSource>OBSERVED</dataSource>
+            <duration>MONTHLY</duration>
+            <elementCd>SRVO</elementCd>
+            <endDate>2100-01-01 00:00:00</endDate>
+            <ordinal>1</ordinal>
+            <originalUnitCd>ac_ft</originalUnitCd>
+            <stationTriplet>11501000:OR:USGS</stationTriplet>
+            <storedUnitCd>ac_ft</storedUnitCd>
+          </stationElement>
+          <unitCd>ac_ft</unitCd>
+          <upstreamForecast>true</upstreamForecast>
+        </equationTerms>
+        <equationTerms>
+          <coefficient>0.999999929877198</coefficient>
+          <dataPeriodDays>1</dataPeriodDays>
+          <dataPeriodMonth>39</dataPeriodMonth>
+          <dataYearFlag>C</dataYearFlag>
+          <stationElement>
+            <beginDate>1921-03-01 00:00:00</beginDate>
+            <dataPrecision>0</dataPrecision>
+            <dataSource>OBSERVED</dataSource>
+            <duration>MONTHLY</duration>
+            <elementCd>SRVO</elementCd>
+            <endDate>2100-01-01 00:00:00</endDate>
+            <ordinal>1</ordinal>
+            <originalUnitCd>ac_ft</originalUnitCd>
+            <stationTriplet>11502250:OR:USGS</stationTriplet>
+            <storedUnitCd>ac_ft</storedUnitCd>
+          </stationElement>
+          <unitCd>ac_ft</unitCd>
+          <upstreamForecast>true</upstreamForecast>
+        </equationTerms>
+        <forecastPeriod>MAR-SEP</forecastPeriod>
+        <forecastType>V</forecastType>
+        <functionArgument>0.0</functionArgument>
+        <interceptConstant>0.000145432091358089</interceptConstant>
+        <key>146767</key>
+        <maxOfRecord>1062.88462</maxOfRecord>
+        <minOfRecord>182.74116</minOfRecord>
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues>131.28762</monthlyStderrValues>
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <name>Williamson R bl Sprague R nr Chiloquin</name>
+        <publicationMonthsAndDays>
+          <day>15</day>
+          <month>1</month>
+        </publicationMonthsAndDays>
+        <published>true</published>
+        <stationTriplet>11502500:OR:USGS</stationTriplet>
+        <transformErrorsOnly>true</transformErrorsOnly>
+        <unitCd>kac_ft</unitCd>
+      </return>
+      <return>
+        <comment>Calib. per. 1981-2015.  JR2=.711.  2 PCs.  D. Garen  27 Dec 2016</comment>
+        <dataSource>AWDB</dataSource>
+        <elementCd>SRVO</elementCd>
+        <equationTerms>
+          <coefficient>0.999999775368293</coefficient>
+          <dataPeriodDays>1</dataPeriodDays>
+          <dataPeriodMonth>39</dataPeriodMonth>
+          <dataYearFlag>C</dataYearFlag>
+          <stationElement>
+            <beginDate>1920-08-01 00:00:00</beginDate>
+            <dataPrecision>0</dataPrecision>
+            <dataSource>OBSERVED</dataSource>
+            <duration>MONTHLY</duration>
+            <elementCd>SRVO</elementCd>
+            <endDate>2100-01-01 00:00:00</endDate>
+            <ordinal>1</ordinal>
+            <originalUnitCd>ac_ft</originalUnitCd>
+            <stationTriplet>11501000:OR:USGS</stationTriplet>
+            <storedUnitCd>ac_ft</storedUnitCd>
+          </stationElement>
+          <unitCd>ac_ft</unitCd>
+          <upstreamForecast>true</upstreamForecast>
+        </equationTerms>
+        <equationTerms>
+          <coefficient>0.999999929877198</coefficient>
+          <dataPeriodDays>1</dataPeriodDays>
+          <dataPeriodMonth>39</dataPeriodMonth>
+          <dataYearFlag>C</dataYearFlag>
+          <stationElement>
+            <beginDate>1921-03-01 00:00:00</beginDate>
+            <dataPrecision>0</dataPrecision>
+            <dataSource>OBSERVED</dataSource>
+            <duration>MONTHLY</duration>
+            <elementCd>SRVO</elementCd>
+            <endDate>2100-01-01 00:00:00</endDate>
+            <ordinal>1</ordinal>
+            <originalUnitCd>ac_ft</originalUnitCd>
+            <stationTriplet>11502250:OR:USGS</stationTriplet>
+            <storedUnitCd>ac_ft</storedUnitCd>
+          </stationElement>
+          <unitCd>ac_ft</unitCd>
+          <upstreamForecast>true</upstreamForecast>
+        </equationTerms>
+        <forecastPeriod>MAR-SEP</forecastPeriod>
+        <forecastType>V</forecastType>
+        <functionArgument>0.0</functionArgument>
+        <interceptConstant>0.000145432091358089</interceptConstant>
+        <key>146770</key>
+        <maxOfRecord>1062.88462</maxOfRecord>
+        <minOfRecord>182.74116</minOfRecord>
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues>98.35302</monthlyStderrValues>
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <name>Williamson R bl Sprague R nr Chiloquin</name>
+        <publicationMonthsAndDays>
+          <day>15</day>
+          <month>2</month>
+        </publicationMonthsAndDays>
+        <published>true</published>
+        <stationTriplet>11502500:OR:USGS</stationTriplet>
+        <transformErrorsOnly>true</transformErrorsOnly>
+        <unitCd>kac_ft</unitCd>
+      </return>
+      <return>
+        <comment>Calib. per. 1981-2015.  JR2=.388.  2 PCs.  D. Garen  26 Dec 2016</comment>
+        <dataSource>AWDB</dataSource>
+        <elementCd>SRVO</elementCd>
+        <equationTerms>
+          <coefficient>1.0</coefficient>
+          <dataPeriodDays>1</dataPeriodDays>
+          <dataPeriodMonth>47</dataPeriodMonth>
+          <dataYearFlag>C</dataYearFlag>
+          <stationElement>
+            <beginDate>1920-08-01 00:00:00</beginDate>
+            <dataPrecision>0</dataPrecision>
+            <dataSource>OBSERVED</dataSource>
+            <duration>MONTHLY</duration>
+            <elementCd>SRVO</elementCd>
+            <endDate>2100-01-01 00:00:00</endDate>
+            <ordinal>1</ordinal>
+            <originalUnitCd>ac_ft</originalUnitCd>
+            <stationTriplet>11501000:OR:USGS</stationTriplet>
+            <storedUnitCd>ac_ft</storedUnitCd>
+          </stationElement>
+          <unitCd>ac_ft</unitCd>
+          <upstreamForecast>true</upstreamForecast>
+        </equationTerms>
+        <equationTerms>
+          <coefficient>1.0</coefficient>
+          <dataPeriodDays>1</dataPeriodDays>
+          <dataPeriodMonth>47</dataPeriodMonth>
+          <dataYearFlag>C</dataYearFlag>
+          <stationElement>
+            <beginDate>1921-03-01 00:00:00</beginDate>
+            <dataPrecision>0</dataPrecision>
+            <dataSource>OBSERVED</dataSource>
+            <duration>MONTHLY</duration>
+            <elementCd>SRVO</elementCd>
+            <endDate>2100-01-01 00:00:00</endDate>
+            <ordinal>1</ordinal>
+            <originalUnitCd>ac_ft</originalUnitCd>
+            <stationTriplet>11502250:OR:USGS</stationTriplet>
+            <storedUnitCd>ac_ft</storedUnitCd>
+          </stationElement>
+          <unitCd>ac_ft</unitCd>
+          <upstreamForecast>true</upstreamForecast>
+        </equationTerms>
+        <forecastPeriod>APR-JUL</forecastPeriod>
+        <forecastType>V</forecastType>
+        <functionArgument>0.0</functionArgument>
+        <interceptConstant>0.0</interceptConstant>
+        <key>146746</key>
+        <maxOfRecord>806.47</maxOfRecord>
+        <minOfRecord>101.11</minOfRecord>
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues>103.97033</monthlyStderrValues>
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <name>Williamson R bl Sprague R nr Chiloquin</name>
+        <publicationMonthsAndDays>
+          <day>1</day>
+          <month>1</month>
+        </publicationMonthsAndDays>
+        <published>true</published>
+        <stationTriplet>11502500:OR:USGS</stationTriplet>
+        <transformErrorsOnly>true</transformErrorsOnly>
+        <unitCd>kac_ft</unitCd>
+      </return>
+      <return>
+        <comment>Calib. per. 1981-2015.  JR2=.636.  2 PCs.  D. Garen  26 Dec 2016</comment>
+        <dataSource>AWDB</dataSource>
+        <elementCd>SRVO</elementCd>
+        <equationTerms>
+          <coefficient>0.999999407838258</coefficient>
+          <dataPeriodDays>1</dataPeriodDays>
+          <dataPeriodMonth>47</dataPeriodMonth>
+          <dataYearFlag>C</dataYearFlag>
+          <stationElement>
+            <beginDate>1920-08-01 00:00:00</beginDate>
+            <dataPrecision>0</dataPrecision>
+            <dataSource>OBSERVED</dataSource>
+            <duration>MONTHLY</duration>
+            <elementCd>SRVO</elementCd>
+            <endDate>2100-01-01 00:00:00</endDate>
+            <ordinal>1</ordinal>
+            <originalUnitCd>ac_ft</originalUnitCd>
+            <stationTriplet>11501000:OR:USGS</stationTriplet>
+            <storedUnitCd>ac_ft</storedUnitCd>
+          </stationElement>
+          <unitCd>ac_ft</unitCd>
+          <upstreamForecast>true</upstreamForecast>
+        </equationTerms>
+        <equationTerms>
+          <coefficient>1.00000019238812</coefficient>
+          <dataPeriodDays>1</dataPeriodDays>
+          <dataPeriodMonth>47</dataPeriodMonth>
+          <dataYearFlag>C</dataYearFlag>
+          <stationElement>
+            <beginDate>1921-03-01 00:00:00</beginDate>
+            <dataPrecision>0</dataPrecision>
+            <dataSource>OBSERVED</dataSource>
+            <duration>MONTHLY</duration>
+            <elementCd>SRVO</elementCd>
+            <endDate>2100-01-01 00:00:00</endDate>
+            <ordinal>1</ordinal>
+            <originalUnitCd>ac_ft</originalUnitCd>
+            <stationTriplet>11502250:OR:USGS</stationTriplet>
+            <storedUnitCd>ac_ft</storedUnitCd>
+          </stationElement>
+          <unitCd>ac_ft</unitCd>
+          <upstreamForecast>true</upstreamForecast>
+        </equationTerms>
+        <forecastPeriod>APR-JUL</forecastPeriod>
+        <forecastType>V</forecastType>
+        <functionArgument>0.0</functionArgument>
+        <interceptConstant>0.000184839560347427</interceptConstant>
+        <key>146750</key>
+        <maxOfRecord>806.4714</maxOfRecord>
+        <minOfRecord>101.10545</minOfRecord>
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues>80.20373</monthlyStderrValues>
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <name>Williamson R bl Sprague R nr Chiloquin</name>
+        <publicationMonthsAndDays>
+          <day>1</day>
+          <month>2</month>
+        </publicationMonthsAndDays>
+        <published>true</published>
+        <stationTriplet>11502500:OR:USGS</stationTriplet>
+        <transformErrorsOnly>true</transformErrorsOnly>
+        <unitCd>kac_ft</unitCd>
+      </return>
+      <return>
+        <comment>Calib. per. 1981-2015.  JR2=.716.  2 PCs.  D. Garen  26 Dec 2016</comment>
+        <dataSource>AWDB</dataSource>
+        <elementCd>SRVO</elementCd>
+        <equationTerms>
+          <coefficient>0.999999407838258</coefficient>
+          <dataPeriodDays>1</dataPeriodDays>
+          <dataPeriodMonth>47</dataPeriodMonth>
+          <dataYearFlag>C</dataYearFlag>
+          <stationElement>
+            <beginDate>1920-08-01 00:00:00</beginDate>
+            <dataPrecision>0</dataPrecision>
+            <dataSource>OBSERVED</dataSource>
+            <duration>MONTHLY</duration>
+            <elementCd>SRVO</elementCd>
+            <endDate>2100-01-01 00:00:00</endDate>
+            <ordinal>1</ordinal>
+            <originalUnitCd>ac_ft</originalUnitCd>
+            <stationTriplet>11501000:OR:USGS</stationTriplet>
+            <storedUnitCd>ac_ft</storedUnitCd>
+          </stationElement>
+          <unitCd>ac_ft</unitCd>
+          <upstreamForecast>true</upstreamForecast>
+        </equationTerms>
+        <equationTerms>
+          <coefficient>1.00000019238812</coefficient>
+          <dataPeriodDays>1</dataPeriodDays>
+          <dataPeriodMonth>47</dataPeriodMonth>
+          <dataYearFlag>C</dataYearFlag>
+          <stationElement>
+            <beginDate>1921-03-01 00:00:00</beginDate>
+            <dataPrecision>0</dataPrecision>
+            <dataSource>OBSERVED</dataSource>
+            <duration>MONTHLY</duration>
+            <elementCd>SRVO</elementCd>
+            <endDate>2100-01-01 00:00:00</endDate>
+            <ordinal>1</ordinal>
+            <originalUnitCd>ac_ft</originalUnitCd>
+            <stationTriplet>11502250:OR:USGS</stationTriplet>
+            <storedUnitCd>ac_ft</storedUnitCd>
+          </stationElement>
+          <unitCd>ac_ft</unitCd>
+          <upstreamForecast>true</upstreamForecast>
+        </equationTerms>
+        <forecastPeriod>APR-JUL</forecastPeriod>
+        <forecastType>V</forecastType>
+        <functionArgument>0.0</functionArgument>
+        <interceptConstant>0.000184839560347427</interceptConstant>
+        <key>146754</key>
+        <maxOfRecord>806.4714</maxOfRecord>
+        <minOfRecord>101.10545</minOfRecord>
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues>70.90234</monthlyStderrValues>
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <name>Williamson R bl Sprague R nr Chiloquin</name>
+        <publicationMonthsAndDays>
+          <day>1</day>
+          <month>3</month>
+        </publicationMonthsAndDays>
+        <published>true</published>
+        <stationTriplet>11502500:OR:USGS</stationTriplet>
+        <transformErrorsOnly>true</transformErrorsOnly>
+        <unitCd>kac_ft</unitCd>
+      </return>
+      <return>
+        <comment>Calib. per. 1981-2015.  JR2=.896.  2 PCs.  D. Garen  26 Dec 2016</comment>
+        <dataSource>AWDB</dataSource>
+        <elementCd>SRVO</elementCd>
+        <equationTerms>
+          <coefficient>0.999999407838258</coefficient>
+          <dataPeriodDays>1</dataPeriodDays>
+          <dataPeriodMonth>47</dataPeriodMonth>
+          <dataYearFlag>C</dataYearFlag>
+          <stationElement>
+            <beginDate>1920-08-01 00:00:00</beginDate>
+            <dataPrecision>0</dataPrecision>
+            <dataSource>OBSERVED</dataSource>
+            <duration>MONTHLY</duration>
+            <elementCd>SRVO</elementCd>
+            <endDate>2100-01-01 00:00:00</endDate>
+            <ordinal>1</ordinal>
+            <originalUnitCd>ac_ft</originalUnitCd>
+            <stationTriplet>11501000:OR:USGS</stationTriplet>
+            <storedUnitCd>ac_ft</storedUnitCd>
+          </stationElement>
+          <unitCd>ac_ft</unitCd>
+          <upstreamForecast>true</upstreamForecast>
+        </equationTerms>
+        <equationTerms>
+          <coefficient>1.00000019238812</coefficient>
+          <dataPeriodDays>1</dataPeriodDays>
+          <dataPeriodMonth>47</dataPeriodMonth>
+          <dataYearFlag>C</dataYearFlag>
+          <stationElement>
+            <beginDate>1921-03-01 00:00:00</beginDate>
+            <dataPrecision>0</dataPrecision>
+            <dataSource>OBSERVED</dataSource>
+            <duration>MONTHLY</duration>
+            <elementCd>SRVO</elementCd>
+            <endDate>2100-01-01 00:00:00</endDate>
+            <ordinal>1</ordinal>
+            <originalUnitCd>ac_ft</originalUnitCd>
+            <stationTriplet>11502250:OR:USGS</stationTriplet>
+            <storedUnitCd>ac_ft</storedUnitCd>
+          </stationElement>
+          <unitCd>ac_ft</unitCd>
+          <upstreamForecast>true</upstreamForecast>
+        </equationTerms>
+        <forecastPeriod>APR-JUL</forecastPeriod>
+        <forecastType>V</forecastType>
+        <functionArgument>0.0</functionArgument>
+        <interceptConstant>0.000184839560347427</interceptConstant>
+        <key>146757</key>
+        <maxOfRecord>806.4714</maxOfRecord>
+        <minOfRecord>101.10545</minOfRecord>
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues>43.00873</monthlyStderrValues>
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <name>Williamson R bl Sprague R nr Chiloquin</name>
+        <publicationMonthsAndDays>
+          <day>1</day>
+          <month>4</month>
+        </publicationMonthsAndDays>
+        <published>true</published>
+        <stationTriplet>11502500:OR:USGS</stationTriplet>
+        <transformErrorsOnly>true</transformErrorsOnly>
+        <unitCd>kac_ft</unitCd>
+      </return>
+      <return>
+        <comment>Calib. per. 1981-2015.  JR2=.388.  2 PCs.  D. Garen  26 Dec 2016</comment>
+        <dataSource>AWDB</dataSource>
+        <elementCd>SRVO</elementCd>
+        <equationTerms>
+          <coefficient>1.0</coefficient>
+          <dataPeriodDays>1</dataPeriodDays>
+          <dataPeriodMonth>47</dataPeriodMonth>
+          <dataYearFlag>C</dataYearFlag>
+          <stationElement>
+            <beginDate>1920-08-01 00:00:00</beginDate>
+            <dataPrecision>0</dataPrecision>
+            <dataSource>OBSERVED</dataSource>
+            <duration>MONTHLY</duration>
+            <elementCd>SRVO</elementCd>
+            <endDate>2100-01-01 00:00:00</endDate>
+            <ordinal>1</ordinal>
+            <originalUnitCd>ac_ft</originalUnitCd>
+            <stationTriplet>11501000:OR:USGS</stationTriplet>
+            <storedUnitCd>ac_ft</storedUnitCd>
+          </stationElement>
+          <unitCd>ac_ft</unitCd>
+          <upstreamForecast>true</upstreamForecast>
+        </equationTerms>
+        <equationTerms>
+          <coefficient>1.0</coefficient>
+          <dataPeriodDays>1</dataPeriodDays>
+          <dataPeriodMonth>47</dataPeriodMonth>
+          <dataYearFlag>C</dataYearFlag>
+          <stationElement>
+            <beginDate>1921-03-01 00:00:00</beginDate>
+            <dataPrecision>0</dataPrecision>
+            <dataSource>OBSERVED</dataSource>
+            <duration>MONTHLY</duration>
+            <elementCd>SRVO</elementCd>
+            <endDate>2100-01-01 00:00:00</endDate>
+            <ordinal>1</ordinal>
+            <originalUnitCd>ac_ft</originalUnitCd>
+            <stationTriplet>11502250:OR:USGS</stationTriplet>
+            <storedUnitCd>ac_ft</storedUnitCd>
+          </stationElement>
+          <unitCd>ac_ft</unitCd>
+          <upstreamForecast>true</upstreamForecast>
+        </equationTerms>
+        <forecastPeriod>APR-JUL</forecastPeriod>
+        <forecastType>V</forecastType>
+        <functionArgument>0.0</functionArgument>
+        <interceptConstant>0.0</interceptConstant>
+        <key>126859</key>
+        <maxOfRecord>806.47</maxOfRecord>
+        <minOfRecord>101.11</minOfRecord>
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues>103.97033</monthlyStderrValues>
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <name>Williamson R bl Sprague R nr Chiloquin</name>
+        <publicationMonthsAndDays>
+          <day>1</day>
+          <month>1</month>
+        </publicationMonthsAndDays>
+        <published>false</published>
+        <stationTriplet>11502500:OR:USGS</stationTriplet>
+        <transformErrorsOnly>true</transformErrorsOnly>
+        <unitCd>kac_ft</unitCd>
+      </return>
+      <return>
+        <comment>Calib. per. 1981-2015.  JR2=.636.  2 PCs.  D. Garen  26 Dec 2016</comment>
+        <dataSource>AWDB</dataSource>
+        <elementCd>SRVO</elementCd>
+        <equationTerms>
+          <coefficient>0.999999407838258</coefficient>
+          <dataPeriodDays>1</dataPeriodDays>
+          <dataPeriodMonth>47</dataPeriodMonth>
+          <dataYearFlag>C</dataYearFlag>
+          <stationElement>
+            <beginDate>1920-08-01 00:00:00</beginDate>
+            <dataPrecision>0</dataPrecision>
+            <dataSource>OBSERVED</dataSource>
+            <duration>MONTHLY</duration>
+            <elementCd>SRVO</elementCd>
+            <endDate>2100-01-01 00:00:00</endDate>
+            <ordinal>1</ordinal>
+            <originalUnitCd>ac_ft</originalUnitCd>
+            <stationTriplet>11501000:OR:USGS</stationTriplet>
+            <storedUnitCd>ac_ft</storedUnitCd>
+          </stationElement>
+          <unitCd>ac_ft</unitCd>
+          <upstreamForecast>true</upstreamForecast>
+        </equationTerms>
+        <equationTerms>
+          <coefficient>1.00000019238812</coefficient>
+          <dataPeriodDays>1</dataPeriodDays>
+          <dataPeriodMonth>47</dataPeriodMonth>
+          <dataYearFlag>C</dataYearFlag>
+          <stationElement>
+            <beginDate>1921-03-01 00:00:00</beginDate>
+            <dataPrecision>0</dataPrecision>
+            <dataSource>OBSERVED</dataSource>
+            <duration>MONTHLY</duration>
+            <elementCd>SRVO</elementCd>
+            <endDate>2100-01-01 00:00:00</endDate>
+            <ordinal>1</ordinal>
+            <originalUnitCd>ac_ft</originalUnitCd>
+            <stationTriplet>11502250:OR:USGS</stationTriplet>
+            <storedUnitCd>ac_ft</storedUnitCd>
+          </stationElement>
+          <unitCd>ac_ft</unitCd>
+          <upstreamForecast>true</upstreamForecast>
+        </equationTerms>
+        <forecastPeriod>APR-JUL</forecastPeriod>
+        <forecastType>V</forecastType>
+        <functionArgument>0.0</functionArgument>
+        <interceptConstant>0.000184839560347427</interceptConstant>
+        <key>126865</key>
+        <maxOfRecord>806.4714</maxOfRecord>
+        <minOfRecord>101.10545</minOfRecord>
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues>80.20373</monthlyStderrValues>
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <name>Williamson R bl Sprague R nr Chiloquin</name>
+        <publicationMonthsAndDays>
+          <day>1</day>
+          <month>2</month>
+        </publicationMonthsAndDays>
+        <published>false</published>
+        <stationTriplet>11502500:OR:USGS</stationTriplet>
+        <transformErrorsOnly>true</transformErrorsOnly>
+        <unitCd>kac_ft</unitCd>
+      </return>
+      <return>
+        <comment>Calib. per. 1981-2015.  JR2=.716.  2 PCs.  D. Garen  26 Dec 2016</comment>
+        <dataSource>AWDB</dataSource>
+        <elementCd>SRVO</elementCd>
+        <equationTerms>
+          <coefficient>0.999999407838258</coefficient>
+          <dataPeriodDays>1</dataPeriodDays>
+          <dataPeriodMonth>47</dataPeriodMonth>
+          <dataYearFlag>C</dataYearFlag>
+          <stationElement>
+            <beginDate>1920-08-01 00:00:00</beginDate>
+            <dataPrecision>0</dataPrecision>
+            <dataSource>OBSERVED</dataSource>
+            <duration>MONTHLY</duration>
+            <elementCd>SRVO</elementCd>
+            <endDate>2100-01-01 00:00:00</endDate>
+            <ordinal>1</ordinal>
+            <originalUnitCd>ac_ft</originalUnitCd>
+            <stationTriplet>11501000:OR:USGS</stationTriplet>
+            <storedUnitCd>ac_ft</storedUnitCd>
+          </stationElement>
+          <unitCd>ac_ft</unitCd>
+          <upstreamForecast>true</upstreamForecast>
+        </equationTerms>
+        <equationTerms>
+          <coefficient>1.00000019238812</coefficient>
+          <dataPeriodDays>1</dataPeriodDays>
+          <dataPeriodMonth>47</dataPeriodMonth>
+          <dataYearFlag>C</dataYearFlag>
+          <stationElement>
+            <beginDate>1921-03-01 00:00:00</beginDate>
+            <dataPrecision>0</dataPrecision>
+            <dataSource>OBSERVED</dataSource>
+            <duration>MONTHLY</duration>
+            <elementCd>SRVO</elementCd>
+            <endDate>2100-01-01 00:00:00</endDate>
+            <ordinal>1</ordinal>
+            <originalUnitCd>ac_ft</originalUnitCd>
+            <stationTriplet>11502250:OR:USGS</stationTriplet>
+            <storedUnitCd>ac_ft</storedUnitCd>
+          </stationElement>
+          <unitCd>ac_ft</unitCd>
+          <upstreamForecast>true</upstreamForecast>
+        </equationTerms>
+        <forecastPeriod>APR-JUL</forecastPeriod>
+        <forecastType>V</forecastType>
+        <functionArgument>0.0</functionArgument>
+        <interceptConstant>0.000184839560347427</interceptConstant>
+        <key>126870</key>
+        <maxOfRecord>806.4714</maxOfRecord>
+        <minOfRecord>101.10545</minOfRecord>
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues>70.90234</monthlyStderrValues>
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <name>Williamson R bl Sprague R nr Chiloquin</name>
+        <publicationMonthsAndDays>
+          <day>1</day>
+          <month>3</month>
+        </publicationMonthsAndDays>
+        <published>false</published>
+        <stationTriplet>11502500:OR:USGS</stationTriplet>
+        <transformErrorsOnly>true</transformErrorsOnly>
+        <unitCd>kac_ft</unitCd>
+      </return>
+      <return>
+        <comment>Calib. per. 1981-2015.  JR2=.491.  2 PCs.  D. Garen  27 Dec 2016</comment>
+        <dataSource>AWDB</dataSource>
+        <elementCd>SRVO</elementCd>
+        <equationTerms>
+          <coefficient>0.999999407838258</coefficient>
+          <dataPeriodDays>1</dataPeriodDays>
+          <dataPeriodMonth>47</dataPeriodMonth>
+          <dataYearFlag>C</dataYearFlag>
+          <stationElement>
+            <beginDate>1920-08-01 00:00:00</beginDate>
+            <dataPrecision>0</dataPrecision>
+            <dataSource>OBSERVED</dataSource>
+            <duration>MONTHLY</duration>
+            <elementCd>SRVO</elementCd>
+            <endDate>2100-01-01 00:00:00</endDate>
+            <ordinal>1</ordinal>
+            <originalUnitCd>ac_ft</originalUnitCd>
+            <stationTriplet>11501000:OR:USGS</stationTriplet>
+            <storedUnitCd>ac_ft</storedUnitCd>
+          </stationElement>
+          <unitCd>ac_ft</unitCd>
+          <upstreamForecast>true</upstreamForecast>
+        </equationTerms>
+        <equationTerms>
+          <coefficient>1.00000019238812</coefficient>
+          <dataPeriodDays>1</dataPeriodDays>
+          <dataPeriodMonth>47</dataPeriodMonth>
+          <dataYearFlag>C</dataYearFlag>
+          <stationElement>
+            <beginDate>1921-03-01 00:00:00</beginDate>
+            <dataPrecision>0</dataPrecision>
+            <dataSource>OBSERVED</dataSource>
+            <duration>MONTHLY</duration>
+            <elementCd>SRVO</elementCd>
+            <endDate>2100-01-01 00:00:00</endDate>
+            <ordinal>1</ordinal>
+            <originalUnitCd>ac_ft</originalUnitCd>
+            <stationTriplet>11502250:OR:USGS</stationTriplet>
+            <storedUnitCd>ac_ft</storedUnitCd>
+          </stationElement>
+          <unitCd>ac_ft</unitCd>
+          <upstreamForecast>true</upstreamForecast>
+        </equationTerms>
+        <forecastPeriod>APR-JUL</forecastPeriod>
+        <forecastType>V</forecastType>
+        <functionArgument>0.0</functionArgument>
+        <interceptConstant>0.000184839560347427</interceptConstant>
+        <key>146764</key>
+        <maxOfRecord>806.4714</maxOfRecord>
+        <minOfRecord>101.10545</minOfRecord>
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues>94.7783</monthlyStderrValues>
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <name>Williamson R bl Sprague R nr Chiloquin</name>
+        <publicationMonthsAndDays>
+          <day>15</day>
+          <month>1</month>
+        </publicationMonthsAndDays>
+        <published>true</published>
+        <stationTriplet>11502500:OR:USGS</stationTriplet>
+        <transformErrorsOnly>true</transformErrorsOnly>
+        <unitCd>kac_ft</unitCd>
+      </return>
+      <return>
+        <comment>Calib. per. 1981-2015.  JR2=.716.  2 PCs.  D. Garen  27 Dec 2016</comment>
+        <dataSource>AWDB</dataSource>
+        <elementCd>SRVO</elementCd>
+        <equationTerms>
+          <coefficient>0.999999407838258</coefficient>
+          <dataPeriodDays>1</dataPeriodDays>
+          <dataPeriodMonth>47</dataPeriodMonth>
+          <dataYearFlag>C</dataYearFlag>
+          <stationElement>
+            <beginDate>1920-08-01 00:00:00</beginDate>
+            <dataPrecision>0</dataPrecision>
+            <dataSource>OBSERVED</dataSource>
+            <duration>MONTHLY</duration>
+            <elementCd>SRVO</elementCd>
+            <endDate>2100-01-01 00:00:00</endDate>
+            <ordinal>1</ordinal>
+            <originalUnitCd>ac_ft</originalUnitCd>
+            <stationTriplet>11501000:OR:USGS</stationTriplet>
+            <storedUnitCd>ac_ft</storedUnitCd>
+          </stationElement>
+          <unitCd>ac_ft</unitCd>
+          <upstreamForecast>true</upstreamForecast>
+        </equationTerms>
+        <equationTerms>
+          <coefficient>1.00000019238812</coefficient>
+          <dataPeriodDays>1</dataPeriodDays>
+          <dataPeriodMonth>47</dataPeriodMonth>
+          <dataYearFlag>C</dataYearFlag>
+          <stationElement>
+            <beginDate>1921-03-01 00:00:00</beginDate>
+            <dataPrecision>0</dataPrecision>
+            <dataSource>OBSERVED</dataSource>
+            <duration>MONTHLY</duration>
+            <elementCd>SRVO</elementCd>
+            <endDate>2100-01-01 00:00:00</endDate>
+            <ordinal>1</ordinal>
+            <originalUnitCd>ac_ft</originalUnitCd>
+            <stationTriplet>11502250:OR:USGS</stationTriplet>
+            <storedUnitCd>ac_ft</storedUnitCd>
+          </stationElement>
+          <unitCd>ac_ft</unitCd>
+          <upstreamForecast>true</upstreamForecast>
+        </equationTerms>
+        <forecastPeriod>APR-JUL</forecastPeriod>
+        <forecastType>V</forecastType>
+        <functionArgument>0.0</functionArgument>
+        <interceptConstant>0.000184839560347427</interceptConstant>
+        <key>146769</key>
+        <maxOfRecord>806.4714</maxOfRecord>
+        <minOfRecord>101.10545</minOfRecord>
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues>70.83335</monthlyStderrValues>
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <name>Williamson R bl Sprague R nr Chiloquin</name>
+        <publicationMonthsAndDays>
+          <day>15</day>
+          <month>2</month>
+        </publicationMonthsAndDays>
+        <published>true</published>
+        <stationTriplet>11502500:OR:USGS</stationTriplet>
+        <transformErrorsOnly>true</transformErrorsOnly>
+        <unitCd>kac_ft</unitCd>
+      </return>
+      <return>
+        <comment>Calib. per. 1981-2015.  JR2=.776.  2 PCs.  D. Garen  27 Dec 2016</comment>
+        <dataSource>AWDB</dataSource>
+        <elementCd>SRVO</elementCd>
+        <equationTerms>
+          <coefficient>0.999999407838258</coefficient>
+          <dataPeriodDays>1</dataPeriodDays>
+          <dataPeriodMonth>47</dataPeriodMonth>
+          <dataYearFlag>C</dataYearFlag>
+          <stationElement>
+            <beginDate>1920-08-01 00:00:00</beginDate>
+            <dataPrecision>0</dataPrecision>
+            <dataSource>OBSERVED</dataSource>
+            <duration>MONTHLY</duration>
+            <elementCd>SRVO</elementCd>
+            <endDate>2100-01-01 00:00:00</endDate>
+            <ordinal>1</ordinal>
+            <originalUnitCd>ac_ft</originalUnitCd>
+            <stationTriplet>11501000:OR:USGS</stationTriplet>
+            <storedUnitCd>ac_ft</storedUnitCd>
+          </stationElement>
+          <unitCd>ac_ft</unitCd>
+          <upstreamForecast>true</upstreamForecast>
+        </equationTerms>
+        <equationTerms>
+          <coefficient>1.00000019238812</coefficient>
+          <dataPeriodDays>1</dataPeriodDays>
+          <dataPeriodMonth>47</dataPeriodMonth>
+          <dataYearFlag>C</dataYearFlag>
+          <stationElement>
+            <beginDate>1921-03-01 00:00:00</beginDate>
+            <dataPrecision>0</dataPrecision>
+            <dataSource>OBSERVED</dataSource>
+            <duration>MONTHLY</duration>
+            <elementCd>SRVO</elementCd>
+            <endDate>2100-01-01 00:00:00</endDate>
+            <ordinal>1</ordinal>
+            <originalUnitCd>ac_ft</originalUnitCd>
+            <stationTriplet>11502250:OR:USGS</stationTriplet>
+            <storedUnitCd>ac_ft</storedUnitCd>
+          </stationElement>
+          <unitCd>ac_ft</unitCd>
+          <upstreamForecast>true</upstreamForecast>
+        </equationTerms>
+        <forecastPeriod>APR-JUL</forecastPeriod>
+        <forecastType>V</forecastType>
+        <functionArgument>0.0</functionArgument>
+        <interceptConstant>0.000184839560347427</interceptConstant>
+        <key>146772</key>
+        <maxOfRecord>806.4714</maxOfRecord>
+        <minOfRecord>101.10545</minOfRecord>
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues>63.00259</monthlyStderrValues>
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <name>Williamson R bl Sprague R nr Chiloquin</name>
+        <publicationMonthsAndDays>
+          <day>15</day>
+          <month>3</month>
+        </publicationMonthsAndDays>
+        <published>true</published>
+        <stationTriplet>11502500:OR:USGS</stationTriplet>
+        <transformErrorsOnly>true</transformErrorsOnly>
+        <unitCd>kac_ft</unitCd>
+      </return>
+      <return>
+        <comment>Calib. per. 1981-2015.  JR2=.398.  2 PCs.  D. Garen  26 Dec 2016</comment>
+        <dataSource>AWDB</dataSource>
+        <elementCd>SRVO</elementCd>
+        <equationTerms>
+          <coefficient>1.0</coefficient>
+          <dataPeriodDays>1</dataPeriodDays>
+          <dataPeriodMonth>49</dataPeriodMonth>
+          <dataYearFlag>C</dataYearFlag>
+          <stationElement>
+            <beginDate>1920-08-01 00:00:00</beginDate>
+            <dataPrecision>0</dataPrecision>
+            <dataSource>OBSERVED</dataSource>
+            <duration>MONTHLY</duration>
+            <elementCd>SRVO</elementCd>
+            <endDate>2100-01-01 00:00:00</endDate>
+            <ordinal>1</ordinal>
+            <originalUnitCd>ac_ft</originalUnitCd>
+            <stationTriplet>11501000:OR:USGS</stationTriplet>
+            <storedUnitCd>ac_ft</storedUnitCd>
+          </stationElement>
+          <unitCd>ac_ft</unitCd>
+          <upstreamForecast>true</upstreamForecast>
+        </equationTerms>
+        <equationTerms>
+          <coefficient>1.0</coefficient>
+          <dataPeriodDays>1</dataPeriodDays>
+          <dataPeriodMonth>49</dataPeriodMonth>
+          <dataYearFlag>C</dataYearFlag>
+          <stationElement>
+            <beginDate>1921-03-01 00:00:00</beginDate>
+            <dataPrecision>0</dataPrecision>
+            <dataSource>OBSERVED</dataSource>
+            <duration>MONTHLY</duration>
+            <elementCd>SRVO</elementCd>
+            <endDate>2100-01-01 00:00:00</endDate>
+            <ordinal>1</ordinal>
+            <originalUnitCd>ac_ft</originalUnitCd>
+            <stationTriplet>11502250:OR:USGS</stationTriplet>
+            <storedUnitCd>ac_ft</storedUnitCd>
+          </stationElement>
+          <unitCd>ac_ft</unitCd>
+          <upstreamForecast>true</upstreamForecast>
+        </equationTerms>
+        <forecastPeriod>APR-SEP</forecastPeriod>
+        <forecastType>V</forecastType>
+        <functionArgument>0.0</functionArgument>
+        <interceptConstant>0.0</interceptConstant>
+        <key>146747</key>
+        <maxOfRecord>910.59</maxOfRecord>
+        <minOfRecord>144.71</minOfRecord>
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues>109.88078</monthlyStderrValues>
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <name>Williamson R bl Sprague R nr Chiloquin</name>
+        <publicationMonthsAndDays>
+          <day>1</day>
+          <month>1</month>
+        </publicationMonthsAndDays>
+        <published>true</published>
+        <stationTriplet>11502500:OR:USGS</stationTriplet>
+        <transformErrorsOnly>true</transformErrorsOnly>
+        <unitCd>kac_ft</unitCd>
+      </return>
+      <return>
+        <comment>Calib. per. 1981-2015.  JR2=.624.  2 PCs.  D. Garen  26 Dec 2016</comment>
+        <dataSource>AWDB</dataSource>
+        <elementCd>SRVO</elementCd>
+        <equationTerms>
+          <coefficient>0.999999278153146</coefficient>
+          <dataPeriodDays>1</dataPeriodDays>
+          <dataPeriodMonth>49</dataPeriodMonth>
+          <dataYearFlag>C</dataYearFlag>
+          <stationElement>
+            <beginDate>1920-08-01 00:00:00</beginDate>
+            <dataPrecision>0</dataPrecision>
+            <dataSource>OBSERVED</dataSource>
+            <duration>MONTHLY</duration>
+            <elementCd>SRVO</elementCd>
+            <endDate>2100-01-01 00:00:00</endDate>
+            <ordinal>1</ordinal>
+            <originalUnitCd>ac_ft</originalUnitCd>
+            <stationTriplet>11501000:OR:USGS</stationTriplet>
+            <storedUnitCd>ac_ft</storedUnitCd>
+          </stationElement>
+          <unitCd>ac_ft</unitCd>
+          <upstreamForecast>true</upstreamForecast>
+        </equationTerms>
+        <equationTerms>
+          <coefficient>0.999999225533447</coefficient>
+          <dataPeriodDays>1</dataPeriodDays>
+          <dataPeriodMonth>49</dataPeriodMonth>
+          <dataYearFlag>C</dataYearFlag>
+          <stationElement>
+            <beginDate>1921-03-01 00:00:00</beginDate>
+            <dataPrecision>0</dataPrecision>
+            <dataSource>OBSERVED</dataSource>
+            <duration>MONTHLY</duration>
+            <elementCd>SRVO</elementCd>
+            <endDate>2100-01-01 00:00:00</endDate>
+            <ordinal>1</ordinal>
+            <originalUnitCd>ac_ft</originalUnitCd>
+            <stationTriplet>11502250:OR:USGS</stationTriplet>
+            <storedUnitCd>ac_ft</storedUnitCd>
+          </stationElement>
+          <unitCd>ac_ft</unitCd>
+          <upstreamForecast>true</upstreamForecast>
+        </equationTerms>
+        <forecastPeriod>APR-SEP</forecastPeriod>
+        <forecastType>V</forecastType>
+        <functionArgument>0.0</functionArgument>
+        <interceptConstant>0.000338463270963985</interceptConstant>
+        <key>146752</key>
+        <maxOfRecord>910.59371</maxOfRecord>
+        <minOfRecord>144.7081</minOfRecord>
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues>86.84794</monthlyStderrValues>
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <name>Williamson R bl Sprague R nr Chiloquin</name>
+        <publicationMonthsAndDays>
+          <day>1</day>
+          <month>2</month>
+        </publicationMonthsAndDays>
+        <published>true</published>
+        <stationTriplet>11502500:OR:USGS</stationTriplet>
+        <transformErrorsOnly>true</transformErrorsOnly>
+        <unitCd>kac_ft</unitCd>
+      </return>
+      <return>
+        <comment>Calib. per. 1981-2015.  JR2=.717.  2 PCs.  D. Garen  26 Dec 2016</comment>
+        <dataSource>AWDB</dataSource>
+        <elementCd>SRVO</elementCd>
+        <equationTerms>
+          <coefficient>0.999999278153146</coefficient>
+          <dataPeriodDays>1</dataPeriodDays>
+          <dataPeriodMonth>49</dataPeriodMonth>
+          <dataYearFlag>C</dataYearFlag>
+          <stationElement>
+            <beginDate>1920-08-01 00:00:00</beginDate>
+            <dataPrecision>0</dataPrecision>
+            <dataSource>OBSERVED</dataSource>
+            <duration>MONTHLY</duration>
+            <elementCd>SRVO</elementCd>
+            <endDate>2100-01-01 00:00:00</endDate>
+            <ordinal>1</ordinal>
+            <originalUnitCd>ac_ft</originalUnitCd>
+            <stationTriplet>11501000:OR:USGS</stationTriplet>
+            <storedUnitCd>ac_ft</storedUnitCd>
+          </stationElement>
+          <unitCd>ac_ft</unitCd>
+          <upstreamForecast>true</upstreamForecast>
+        </equationTerms>
+        <equationTerms>
+          <coefficient>0.999999225533447</coefficient>
+          <dataPeriodDays>1</dataPeriodDays>
+          <dataPeriodMonth>49</dataPeriodMonth>
+          <dataYearFlag>C</dataYearFlag>
+          <stationElement>
+            <beginDate>1921-03-01 00:00:00</beginDate>
+            <dataPrecision>0</dataPrecision>
+            <dataSource>OBSERVED</dataSource>
+            <duration>MONTHLY</duration>
+            <elementCd>SRVO</elementCd>
+            <endDate>2100-01-01 00:00:00</endDate>
+            <ordinal>1</ordinal>
+            <originalUnitCd>ac_ft</originalUnitCd>
+            <stationTriplet>11502250:OR:USGS</stationTriplet>
+            <storedUnitCd>ac_ft</storedUnitCd>
+          </stationElement>
+          <unitCd>ac_ft</unitCd>
+          <upstreamForecast>true</upstreamForecast>
+        </equationTerms>
+        <forecastPeriod>APR-SEP</forecastPeriod>
+        <forecastType>V</forecastType>
+        <functionArgument>0.0</functionArgument>
+        <interceptConstant>0.000338463270963985</interceptConstant>
+        <key>146756</key>
+        <maxOfRecord>910.59371</maxOfRecord>
+        <minOfRecord>144.7081</minOfRecord>
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues>75.51931</monthlyStderrValues>
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <name>Williamson R bl Sprague R nr Chiloquin</name>
+        <publicationMonthsAndDays>
+          <day>1</day>
+          <month>3</month>
+        </publicationMonthsAndDays>
+        <published>true</published>
+        <stationTriplet>11502500:OR:USGS</stationTriplet>
+        <transformErrorsOnly>true</transformErrorsOnly>
+        <unitCd>kac_ft</unitCd>
+      </return>
+      <return>
+        <comment>Calib. per. 1981-2015.  JR2=.896.  2 PCs.  D. Garen  26 Dec 2016</comment>
+        <dataSource>AWDB</dataSource>
+        <elementCd>SRVO</elementCd>
+        <equationTerms>
+          <coefficient>0.999999278153146</coefficient>
+          <dataPeriodDays>1</dataPeriodDays>
+          <dataPeriodMonth>49</dataPeriodMonth>
+          <dataYearFlag>C</dataYearFlag>
+          <stationElement>
+            <beginDate>1920-08-01 00:00:00</beginDate>
+            <dataPrecision>0</dataPrecision>
+            <dataSource>OBSERVED</dataSource>
+            <duration>MONTHLY</duration>
+            <elementCd>SRVO</elementCd>
+            <endDate>2100-01-01 00:00:00</endDate>
+            <ordinal>1</ordinal>
+            <originalUnitCd>ac_ft</originalUnitCd>
+            <stationTriplet>11501000:OR:USGS</stationTriplet>
+            <storedUnitCd>ac_ft</storedUnitCd>
+          </stationElement>
+          <unitCd>ac_ft</unitCd>
+          <upstreamForecast>true</upstreamForecast>
+        </equationTerms>
+        <equationTerms>
+          <coefficient>0.999999225533447</coefficient>
+          <dataPeriodDays>1</dataPeriodDays>
+          <dataPeriodMonth>49</dataPeriodMonth>
+          <dataYearFlag>C</dataYearFlag>
+          <stationElement>
+            <beginDate>1921-03-01 00:00:00</beginDate>
+            <dataPrecision>0</dataPrecision>
+            <dataSource>OBSERVED</dataSource>
+            <duration>MONTHLY</duration>
+            <elementCd>SRVO</elementCd>
+            <endDate>2100-01-01 00:00:00</endDate>
+            <ordinal>1</ordinal>
+            <originalUnitCd>ac_ft</originalUnitCd>
+            <stationTriplet>11502250:OR:USGS</stationTriplet>
+            <storedUnitCd>ac_ft</storedUnitCd>
+          </stationElement>
+          <unitCd>ac_ft</unitCd>
+          <upstreamForecast>true</upstreamForecast>
+        </equationTerms>
+        <forecastPeriod>APR-SEP</forecastPeriod>
+        <forecastType>V</forecastType>
+        <functionArgument>0.0</functionArgument>
+        <interceptConstant>0.000338463270963985</interceptConstant>
+        <key>146758</key>
+        <maxOfRecord>910.59371</maxOfRecord>
+        <minOfRecord>144.7081</minOfRecord>
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues>45.68482</monthlyStderrValues>
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <name>Williamson R bl Sprague R nr Chiloquin</name>
+        <publicationMonthsAndDays>
+          <day>1</day>
+          <month>4</month>
+        </publicationMonthsAndDays>
+        <published>true</published>
+        <stationTriplet>11502500:OR:USGS</stationTriplet>
+        <transformErrorsOnly>true</transformErrorsOnly>
+        <unitCd>kac_ft</unitCd>
+      </return>
+      <return>
+        <comment>Calib. per. 1981-2015.  JR2=.491.  2 PCs.  D. Garen  27 Dec 2016</comment>
+        <dataSource>AWDB</dataSource>
+        <elementCd>SRVO</elementCd>
+        <equationTerms>
+          <coefficient>0.999999278153146</coefficient>
+          <dataPeriodDays>1</dataPeriodDays>
+          <dataPeriodMonth>49</dataPeriodMonth>
+          <dataYearFlag>C</dataYearFlag>
+          <stationElement>
+            <beginDate>1920-08-01 00:00:00</beginDate>
+            <dataPrecision>0</dataPrecision>
+            <dataSource>OBSERVED</dataSource>
+            <duration>MONTHLY</duration>
+            <elementCd>SRVO</elementCd>
+            <endDate>2100-01-01 00:00:00</endDate>
+            <ordinal>1</ordinal>
+            <originalUnitCd>ac_ft</originalUnitCd>
+            <stationTriplet>11501000:OR:USGS</stationTriplet>
+            <storedUnitCd>ac_ft</storedUnitCd>
+          </stationElement>
+          <unitCd>ac_ft</unitCd>
+          <upstreamForecast>true</upstreamForecast>
+        </equationTerms>
+        <equationTerms>
+          <coefficient>0.999999225533447</coefficient>
+          <dataPeriodDays>1</dataPeriodDays>
+          <dataPeriodMonth>49</dataPeriodMonth>
+          <dataYearFlag>C</dataYearFlag>
+          <stationElement>
+            <beginDate>1921-03-01 00:00:00</beginDate>
+            <dataPrecision>0</dataPrecision>
+            <dataSource>OBSERVED</dataSource>
+            <duration>MONTHLY</duration>
+            <elementCd>SRVO</elementCd>
+            <endDate>2100-01-01 00:00:00</endDate>
+            <ordinal>1</ordinal>
+            <originalUnitCd>ac_ft</originalUnitCd>
+            <stationTriplet>11502250:OR:USGS</stationTriplet>
+            <storedUnitCd>ac_ft</storedUnitCd>
+          </stationElement>
+          <unitCd>ac_ft</unitCd>
+          <upstreamForecast>true</upstreamForecast>
+        </equationTerms>
+        <forecastPeriod>APR-SEP</forecastPeriod>
+        <forecastType>V</forecastType>
+        <functionArgument>0.0</functionArgument>
+        <interceptConstant>0.000338463270963985</interceptConstant>
+        <key>146766</key>
+        <maxOfRecord>910.59371</maxOfRecord>
+        <minOfRecord>144.7081</minOfRecord>
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues>101.01006</monthlyStderrValues>
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <name>Williamson R bl Sprague R nr Chiloquin</name>
+        <publicationMonthsAndDays>
+          <day>15</day>
+          <month>1</month>
+        </publicationMonthsAndDays>
+        <published>true</published>
+        <stationTriplet>11502500:OR:USGS</stationTriplet>
+        <transformErrorsOnly>true</transformErrorsOnly>
+        <unitCd>kac_ft</unitCd>
+      </return>
+      <return>
+        <comment>Calib. per. 1981-2015.  JR2=.710.  2 PCs.  D. Garen  27 Dec 2016</comment>
+        <dataSource>AWDB</dataSource>
+        <elementCd>SRVO</elementCd>
+        <equationTerms>
+          <coefficient>0.999999278153146</coefficient>
+          <dataPeriodDays>1</dataPeriodDays>
+          <dataPeriodMonth>49</dataPeriodMonth>
+          <dataYearFlag>C</dataYearFlag>
+          <stationElement>
+            <beginDate>1920-08-01 00:00:00</beginDate>
+            <dataPrecision>0</dataPrecision>
+            <dataSource>OBSERVED</dataSource>
+            <duration>MONTHLY</duration>
+            <elementCd>SRVO</elementCd>
+            <endDate>2100-01-01 00:00:00</endDate>
+            <ordinal>1</ordinal>
+            <originalUnitCd>ac_ft</originalUnitCd>
+            <stationTriplet>11501000:OR:USGS</stationTriplet>
+            <storedUnitCd>ac_ft</storedUnitCd>
+          </stationElement>
+          <unitCd>ac_ft</unitCd>
+          <upstreamForecast>true</upstreamForecast>
+        </equationTerms>
+        <equationTerms>
+          <coefficient>0.999999225533447</coefficient>
+          <dataPeriodDays>1</dataPeriodDays>
+          <dataPeriodMonth>49</dataPeriodMonth>
+          <dataYearFlag>C</dataYearFlag>
+          <stationElement>
+            <beginDate>1921-03-01 00:00:00</beginDate>
+            <dataPrecision>0</dataPrecision>
+            <dataSource>OBSERVED</dataSource>
+            <duration>MONTHLY</duration>
+            <elementCd>SRVO</elementCd>
+            <endDate>2100-01-01 00:00:00</endDate>
+            <ordinal>1</ordinal>
+            <originalUnitCd>ac_ft</originalUnitCd>
+            <stationTriplet>11502250:OR:USGS</stationTriplet>
+            <storedUnitCd>ac_ft</storedUnitCd>
+          </stationElement>
+          <unitCd>ac_ft</unitCd>
+          <upstreamForecast>true</upstreamForecast>
+        </equationTerms>
+        <forecastPeriod>APR-SEP</forecastPeriod>
+        <forecastType>V</forecastType>
+        <functionArgument>0.0</functionArgument>
+        <interceptConstant>0.000338463270963985</interceptConstant>
+        <key>146771</key>
+        <maxOfRecord>910.59371</maxOfRecord>
+        <minOfRecord>144.7081</minOfRecord>
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues>76.21313</monthlyStderrValues>
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <name>Williamson R bl Sprague R nr Chiloquin</name>
+        <publicationMonthsAndDays>
+          <day>15</day>
+          <month>2</month>
+        </publicationMonthsAndDays>
+        <published>true</published>
+        <stationTriplet>11502500:OR:USGS</stationTriplet>
+        <transformErrorsOnly>true</transformErrorsOnly>
+        <unitCd>kac_ft</unitCd>
+      </return>
+      <return>
+        <comment>Calib. per. 1981-2015.  JR2=.776.  2 PCs.  D. Garen  27 Dec 2016</comment>
+        <dataSource>AWDB</dataSource>
+        <elementCd>SRVO</elementCd>
+        <equationTerms>
+          <coefficient>0.999999278153146</coefficient>
+          <dataPeriodDays>1</dataPeriodDays>
+          <dataPeriodMonth>49</dataPeriodMonth>
+          <dataYearFlag>C</dataYearFlag>
+          <stationElement>
+            <beginDate>1920-08-01 00:00:00</beginDate>
+            <dataPrecision>0</dataPrecision>
+            <dataSource>OBSERVED</dataSource>
+            <duration>MONTHLY</duration>
+            <elementCd>SRVO</elementCd>
+            <endDate>2100-01-01 00:00:00</endDate>
+            <ordinal>1</ordinal>
+            <originalUnitCd>ac_ft</originalUnitCd>
+            <stationTriplet>11501000:OR:USGS</stationTriplet>
+            <storedUnitCd>ac_ft</storedUnitCd>
+          </stationElement>
+          <unitCd>ac_ft</unitCd>
+          <upstreamForecast>true</upstreamForecast>
+        </equationTerms>
+        <equationTerms>
+          <coefficient>0.999999225533447</coefficient>
+          <dataPeriodDays>1</dataPeriodDays>
+          <dataPeriodMonth>49</dataPeriodMonth>
+          <dataYearFlag>C</dataYearFlag>
+          <stationElement>
+            <beginDate>1921-03-01 00:00:00</beginDate>
+            <dataPrecision>0</dataPrecision>
+            <dataSource>OBSERVED</dataSource>
+            <duration>MONTHLY</duration>
+            <elementCd>SRVO</elementCd>
+            <endDate>2100-01-01 00:00:00</endDate>
+            <ordinal>1</ordinal>
+            <originalUnitCd>ac_ft</originalUnitCd>
+            <stationTriplet>11502250:OR:USGS</stationTriplet>
+            <storedUnitCd>ac_ft</storedUnitCd>
+          </stationElement>
+          <unitCd>ac_ft</unitCd>
+          <upstreamForecast>true</upstreamForecast>
+        </equationTerms>
+        <forecastPeriod>APR-SEP</forecastPeriod>
+        <forecastType>V</forecastType>
+        <functionArgument>0.0</functionArgument>
+        <interceptConstant>0.000338463270963985</interceptConstant>
+        <key>146773</key>
+        <maxOfRecord>910.59371</maxOfRecord>
+        <minOfRecord>144.7081</minOfRecord>
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues>67.04307</monthlyStderrValues>
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <name>Williamson R bl Sprague R nr Chiloquin</name>
+        <publicationMonthsAndDays>
+          <day>15</day>
+          <month>3</month>
+        </publicationMonthsAndDays>
+        <published>true</published>
+        <stationTriplet>11502500:OR:USGS</stationTriplet>
+        <transformErrorsOnly>true</transformErrorsOnly>
+        <unitCd>kac_ft</unitCd>
+      </return>
+      <return>
+        <comment>Calib. per. 1981-2015.  JR2=.840.  2 PCs.  D. Garen  26 Dec 2016</comment>
+        <dataSource>AWDB</dataSource>
+        <elementCd>SRVO</elementCd>
+        <equationTerms>
+          <coefficient>0.999998675691609</coefficient>
+          <dataPeriodDays>1</dataPeriodDays>
+          <dataPeriodMonth>57</dataPeriodMonth>
+          <dataYearFlag>C</dataYearFlag>
+          <stationElement>
+            <beginDate>1920-08-01 00:00:00</beginDate>
+            <dataPrecision>0</dataPrecision>
+            <dataSource>OBSERVED</dataSource>
+            <duration>MONTHLY</duration>
+            <elementCd>SRVO</elementCd>
+            <endDate>2100-01-01 00:00:00</endDate>
+            <ordinal>1</ordinal>
+            <originalUnitCd>ac_ft</originalUnitCd>
+            <stationTriplet>11501000:OR:USGS</stationTriplet>
+            <storedUnitCd>ac_ft</storedUnitCd>
+          </stationElement>
+          <unitCd>ac_ft</unitCd>
+          <upstreamForecast>true</upstreamForecast>
+        </equationTerms>
+        <equationTerms>
+          <coefficient>0.999999855354876</coefficient>
+          <dataPeriodDays>1</dataPeriodDays>
+          <dataPeriodMonth>57</dataPeriodMonth>
+          <dataYearFlag>C</dataYearFlag>
+          <stationElement>
+            <beginDate>1921-03-01 00:00:00</beginDate>
+            <dataPrecision>0</dataPrecision>
+            <dataSource>OBSERVED</dataSource>
+            <duration>MONTHLY</duration>
+            <elementCd>SRVO</elementCd>
+            <endDate>2100-01-01 00:00:00</endDate>
+            <ordinal>1</ordinal>
+            <originalUnitCd>ac_ft</originalUnitCd>
+            <stationTriplet>11502250:OR:USGS</stationTriplet>
+            <storedUnitCd>ac_ft</storedUnitCd>
+          </stationElement>
+          <unitCd>ac_ft</unitCd>
+          <upstreamForecast>true</upstreamForecast>
+        </equationTerms>
+        <forecastPeriod>MAY-JUL</forecastPeriod>
+        <forecastType>V</forecastType>
+        <functionArgument>0.0</functionArgument>
+        <interceptConstant>0.000242461559196272</interceptConstant>
+        <key>146759</key>
+        <maxOfRecord>485.06975</maxOfRecord>
+        <minOfRecord>66.43239</minOfRecord>
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues>35.13251</monthlyStderrValues>
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <name>Williamson R bl Sprague R nr Chiloquin</name>
+        <publicationMonthsAndDays>
+          <day>1</day>
+          <month>5</month>
+        </publicationMonthsAndDays>
+        <published>true</published>
+        <stationTriplet>11502500:OR:USGS</stationTriplet>
+        <transformErrorsOnly>true</transformErrorsOnly>
+        <unitCd>kac_ft</unitCd>
+      </return>
+      <return>
+        <comment>Calib. per. 1981-2015.  JR2=.842.  2 PCs.  D. Garen  26 Dec 2016</comment>
+        <dataSource>AWDB</dataSource>
+        <elementCd>SRVO</elementCd>
+        <equationTerms>
+          <coefficient>0.999999263352076</coefficient>
+          <dataPeriodDays>1</dataPeriodDays>
+          <dataPeriodMonth>59</dataPeriodMonth>
+          <dataYearFlag>C</dataYearFlag>
+          <stationElement>
+            <beginDate>1920-08-01 00:00:00</beginDate>
+            <dataPrecision>0</dataPrecision>
+            <dataSource>OBSERVED</dataSource>
+            <duration>MONTHLY</duration>
+            <elementCd>SRVO</elementCd>
+            <endDate>2100-01-01 00:00:00</endDate>
+            <ordinal>1</ordinal>
+            <originalUnitCd>ac_ft</originalUnitCd>
+            <stationTriplet>11501000:OR:USGS</stationTriplet>
+            <storedUnitCd>ac_ft</storedUnitCd>
+          </stationElement>
+          <unitCd>ac_ft</unitCd>
+          <upstreamForecast>true</upstreamForecast>
+        </equationTerms>
+        <equationTerms>
+          <coefficient>1.00000275600878</coefficient>
+          <dataPeriodDays>1</dataPeriodDays>
+          <dataPeriodMonth>59</dataPeriodMonth>
+          <dataYearFlag>C</dataYearFlag>
+          <stationElement>
+            <beginDate>1921-03-01 00:00:00</beginDate>
+            <dataPrecision>0</dataPrecision>
+            <dataSource>OBSERVED</dataSource>
+            <duration>MONTHLY</duration>
+            <elementCd>SRVO</elementCd>
+            <endDate>2100-01-01 00:00:00</endDate>
+            <ordinal>1</ordinal>
+            <originalUnitCd>ac_ft</originalUnitCd>
+            <stationTriplet>11502250:OR:USGS</stationTriplet>
+            <storedUnitCd>ac_ft</storedUnitCd>
+          </stationElement>
+          <unitCd>ac_ft</unitCd>
+          <upstreamForecast>true</upstreamForecast>
+        </equationTerms>
+        <forecastPeriod>MAY-SEP</forecastPeriod>
+        <forecastType>V</forecastType>
+        <functionArgument>0.0</functionArgument>
+        <interceptConstant>-0.0000915959332132843</interceptConstant>
+        <key>146760</key>
+        <maxOfRecord>589.19206</maxOfRecord>
+        <minOfRecord>110.03504</minOfRecord>
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues>38.2866</monthlyStderrValues>
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <name>Williamson R bl Sprague R nr Chiloquin</name>
+        <publicationMonthsAndDays>
+          <day>1</day>
+          <month>5</month>
+        </publicationMonthsAndDays>
+        <published>true</published>
+        <stationTriplet>11502500:OR:USGS</stationTriplet>
+        <transformErrorsOnly>true</transformErrorsOnly>
+        <unitCd>kac_ft</unitCd>
+      </return>
+      <return>
+        <comment>Calib. per. 1981-2015.  JR2=.856.  2 PCs.  D. Garen  26 Dec 2016</comment>
+        <dataSource>AWDB</dataSource>
+        <elementCd>SRVO</elementCd>
+        <equationTerms>
+          <coefficient>0.999997228042992</coefficient>
+          <dataPeriodDays>1</dataPeriodDays>
+          <dataPeriodMonth>67</dataPeriodMonth>
+          <dataYearFlag>C</dataYearFlag>
+          <stationElement>
+            <beginDate>1920-08-01 00:00:00</beginDate>
+            <dataPrecision>0</dataPrecision>
+            <dataSource>OBSERVED</dataSource>
+            <duration>MONTHLY</duration>
+            <elementCd>SRVO</elementCd>
+            <endDate>2100-01-01 00:00:00</endDate>
+            <ordinal>1</ordinal>
+            <originalUnitCd>ac_ft</originalUnitCd>
+            <stationTriplet>11501000:OR:USGS</stationTriplet>
+            <storedUnitCd>ac_ft</storedUnitCd>
+          </stationElement>
+          <unitCd>ac_ft</unitCd>
+          <upstreamForecast>true</upstreamForecast>
+        </equationTerms>
+        <equationTerms>
+          <coefficient>1.00000436237297</coefficient>
+          <dataPeriodDays>1</dataPeriodDays>
+          <dataPeriodMonth>67</dataPeriodMonth>
+          <dataYearFlag>C</dataYearFlag>
+          <stationElement>
+            <beginDate>1921-03-01 00:00:00</beginDate>
+            <dataPrecision>0</dataPrecision>
+            <dataSource>OBSERVED</dataSource>
+            <duration>MONTHLY</duration>
+            <elementCd>SRVO</elementCd>
+            <endDate>2100-01-01 00:00:00</endDate>
+            <ordinal>1</ordinal>
+            <originalUnitCd>ac_ft</originalUnitCd>
+            <stationTriplet>11502250:OR:USGS</stationTriplet>
+            <storedUnitCd>ac_ft</storedUnitCd>
+          </stationElement>
+          <unitCd>ac_ft</unitCd>
+          <upstreamForecast>true</upstreamForecast>
+        </equationTerms>
+        <forecastPeriod>JUN-JUL</forecastPeriod>
+        <forecastType>V</forecastType>
+        <functionArgument>0.0</functionArgument>
+        <interceptConstant>0.000030923720586884</interceptConstant>
+        <key>146761</key>
+        <maxOfRecord>225.84991</maxOfRecord>
+        <minOfRecord>42.41057</minOfRecord>
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues>15.24022</monthlyStderrValues>
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <name>Williamson R bl Sprague R nr Chiloquin</name>
+        <publicationMonthsAndDays>
+          <day>1</day>
+          <month>6</month>
+        </publicationMonthsAndDays>
+        <published>true</published>
+        <stationTriplet>11502500:OR:USGS</stationTriplet>
+        <transformErrorsOnly>true</transformErrorsOnly>
+        <unitCd>kac_ft</unitCd>
+      </return>
+      <return>
+        <comment>Calib. per. 1981-2015.  JR2=.821.  2 PCs.  D. Garen  26 Dec 2016</comment>
+        <dataSource>AWDB</dataSource>
+        <elementCd>SRVO</elementCd>
+        <equationTerms>
+          <coefficient>0.999997796092754</coefficient>
+          <dataPeriodDays>1</dataPeriodDays>
+          <dataPeriodMonth>69</dataPeriodMonth>
+          <dataYearFlag>C</dataYearFlag>
+          <stationElement>
+            <beginDate>1920-08-01 00:00:00</beginDate>
+            <dataPrecision>0</dataPrecision>
+            <dataSource>OBSERVED</dataSource>
+            <duration>MONTHLY</duration>
+            <elementCd>SRVO</elementCd>
+            <endDate>2100-01-01 00:00:00</endDate>
+            <ordinal>1</ordinal>
+            <originalUnitCd>ac_ft</originalUnitCd>
+            <stationTriplet>11501000:OR:USGS</stationTriplet>
+            <storedUnitCd>ac_ft</storedUnitCd>
+          </stationElement>
+          <unitCd>ac_ft</unitCd>
+          <upstreamForecast>true</upstreamForecast>
+        </equationTerms>
+        <equationTerms>
+          <coefficient>1.00000356788332</coefficient>
+          <dataPeriodDays>1</dataPeriodDays>
+          <dataPeriodMonth>69</dataPeriodMonth>
+          <dataYearFlag>C</dataYearFlag>
+          <stationElement>
+            <beginDate>1921-03-01 00:00:00</beginDate>
+            <dataPrecision>0</dataPrecision>
+            <dataSource>OBSERVED</dataSource>
+            <duration>MONTHLY</duration>
+            <elementCd>SRVO</elementCd>
+            <endDate>2100-01-01 00:00:00</endDate>
+            <ordinal>1</ordinal>
+            <originalUnitCd>ac_ft</originalUnitCd>
+            <stationTriplet>11502250:OR:USGS</stationTriplet>
+            <storedUnitCd>ac_ft</storedUnitCd>
+          </stationElement>
+          <unitCd>ac_ft</unitCd>
+          <upstreamForecast>true</upstreamForecast>
+        </equationTerms>
+        <forecastPeriod>JUN-SEP</forecastPeriod>
+        <forecastType>V</forecastType>
+        <functionArgument>0.0</functionArgument>
+        <interceptConstant>-0.0000554414941404957</interceptConstant>
+        <key>146762</key>
+        <maxOfRecord>320.09454</maxOfRecord>
+        <minOfRecord>84.06545</minOfRecord>
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyCorrelationCoefficients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues>20.91559</monthlyStderrValues>
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <monthlyStderrValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <name>Williamson R bl Sprague R nr Chiloquin</name>
+        <publicationMonthsAndDays>
+          <day>1</day>
+          <month>6</month>
+        </publicationMonthsAndDays>
+        <published>true</published>
+        <stationTriplet>11502500:OR:USGS</stationTriplet>
+        <transformErrorsOnly>true</transformErrorsOnly>
+        <unitCd>kac_ft</unitCd>
+      </return>
+    </ns2:getForecastEquationsResponse>
+  </soap:Body>
+</soap:Envelope>
