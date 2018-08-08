@@ -125,15 +125,18 @@ for(iterDate in 1:ctDate){
 dirNRCS = 'C:/Projects/KlamathRiverBasin/PostProcess/data/output/'
 nrcsFiles = c('Willimason_FcastHist_apr-sep_Volumes.csv','Sprague_FcastHist_apr-sep_Volumes.csv','Gerber_FcastHist_apr-sep_Volumes.csv','Clear_FcastHist_apr-sep_Volumes.csv')
 nrcsNames = c('Will','Sprag','Gerb','Clear')
+startDates = c('1993-01-01','1993-01-01','2005-01-01','2005-01-01')
+endDates = c('2016-04-01','2016-04-01','2016-04-01','2016-04-01')
 
 ctFiles = length(nrcsFiles)
 for(iterFile in 1:ctFiles){
 	datFile = fread(paste0(dirNRCS,nrcsFiles[iterFile]))
+	datFile = datFile %>% dplyr::mutate(InitDate = as.Date(InitDate)) %>% dplyr::filter(InitDate >= startDates[iterFile] & InitDate <= endDates[iterFile])
 #	outFile = datFile %>% dplyr::mutate(InitDate = as.Date(InitDate)) %>% dplyr::mutate(date2 = paste0(as.numeric(format(InitDate, '%Y%m%d')),12)) %>% dplyr::mutate(lead = 0) %>% dplyr::select(date2, lead, ValueMax, ValueMin, Value50, Value10, Value90)
-	outFile = datFile %>% dplyr::mutate(InitDate = as.Date(InitDate)) %>% dplyr::mutate(date2 = paste0(format(InitDate, '%m/%d/%Y'),' 12')) %>% dplyr::mutate(lead = 0) %>% dplyr::select(date2, lead, ValueMax, ValueMin, Value50, Value10, Value90)
+	outFile = datFile %>% dplyr::mutate(date2 = paste0(format(InitDate, '%m/%d/%Y'),' 12')) %>% dplyr::mutate(lead = 0) %>% dplyr::select(date2, lead, ValueMax, ValueMin, Value50, Value10, Value90)
 	write.table(outFile,file=paste0(dirEVS,'EVS_flow_ensemble_forecasts_',nrcsNames[iterFile],'.fcst'),row.names=FALSE,col.names=FALSE,quote=F,sep='\t')
 #	outFile = datFile %>% dplyr::mutate(InitDate = as.Date(InitDate)) %>% dplyr::mutate(date2 = paste0(as.numeric(format(InitDate, '%Y%m%d')),12)) %>% dplyr::mutate(lead = 0) %>% dplyr::select(date2, lead, ValueMax, ValueMin, Value50, Value10, Value90)
-	write.csv(outFile,file=paste0(dirEVS,'EVS_flow_ensemble_forecasts_',nrcsNames[iterFile],'.csv'))
+#	write.csv(outFile,file=paste0(dirEVS,'EVS_flow_ensemble_forecasts_',nrcsNames[iterFile],'.csv'))
 }
 
 
@@ -141,15 +144,18 @@ for(iterFile in 1:ctFiles){
 dirObs = 'C:/Projects/KlamathRiverBasin/PostProcess/data/nrcs/'
 obsFiles = c('WMSO3_nrcs_natflow.csv','SPRAG_nrcs_natflow.csv','GERB_nrcs_natflow.csv')
 obsNames = c('Will','Sprag','Gerb')
+startDates = c('1993-01-01','1993-01-01','2005-01-01')
+endDates = c('2016-04-01','2016-04-01','2016-04-01')
 
 ctFiles = length(obsFiles)
 for(iterFile in 1:ctFiles){
 	nrcsNatFlow = fread(paste0(dirObs,obsFiles[iterFile]))
 	nrcsNatFlowSeas = nrcsNatFlow %>% dplyr::filter(Date %in% c('Apr','May','Jun','Jul','Aug','Sep')) %>%	group_by(Year) %>% summarise(Value_obs=sum(Value)/1000) %>% mutate(Location = 'Williamson R blw Sprague near Chiloquin')
 	natflow = nrcsNatFlowSeas %>% left_join(nrcsNatFlow) %>% mutate(mon=match(Date,month.abb)) %>% filter(mon<=4)
+	natflow = natflow %>% dplyr::mutate(InitDate = as.Date(paste0(Year,'-',mon,'-',01))) %>% dplyr::filter(InitDate >= startDates[iterFile] & InitDate <= endDates[iterFile])
 	#outFile = natflow %>% dplyr::mutate(date2 = paste0(as.numeric(format(as.Date(paste0(Year,'-',mon,'-',01)), '%Y%m%d')),12)) %>% dplyr::select(date2, Value_obs)
 	outFile = natflow %>% dplyr::mutate(date2 = paste0(format(as.Date(paste0(Year,'-',mon,'-',01)), '%m/%d/%Y'),' 12')) %>% dplyr::select(date2, Value_obs)
 	write.table(outFile,file=paste0(dirEVS,'EVS_flow_obs_',obsNames[iterFile],'.obs'),row.names=FALSE,col.names=FALSE,quote=F,sep='\t')
-	write.csv(outFile,file=paste0(dirEVS,'EVS_flow_obs_',obsNames[iterFile],'.csv'),row.names=FALSE)
+#	write.csv(outFile,file=paste0(dirEVS,'EVS_flow_obs_',obsNames[iterFile],'.csv'),row.names=FALSE)
 	#files in 1000AF units
 }
