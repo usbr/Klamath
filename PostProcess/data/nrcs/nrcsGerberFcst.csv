@@ -1,0 +1,12 @@
+Issue_year,Issue_month,Target_Name,Prob_exceedence_levels,Fcst_min_vol,Fcst_low_vol,Fcst_mid_vol,Fcst_upp_vol,Fcst_max_vol,Fcst_min_pct,Fcst_low_pct,Fcst_mid_pct,Fcst_upp_pct,Fcst_max_pct,Location
+2006,1,APR-SEP VOLUME,bound_10_30_50_70_90,4.1,14.7,22,29,40,23,83,124,163,225,Gerber Reservoir Inflow
+2006,2,APR-SEP VOLUME,bound_10_30_50_70_90,9.7,18.2,24,30,38,54,102,135,169,213,Gerber Reservoir Inflow
+2006,3,APR-SEP VOLUME,bound_10_30_50_70_90,9.6,18.2,24,30,38,54,102,135,169,213,Gerber Reservoir Inflow
+2006,4,APR-SEP VOLUME,bound_10_30_50_70_90,19,24,28,32,37,107,135,157,180,208,Gerber Reservoir Inflow
+2006,5,MAY-SEP VOLUME,bound_50,-99.9,-99.9,10.5,-99.9,-99.9,-99,-99,160,-99,-99,Gerber Reservoir Inflow
+2010,1,APR-SEP VOLUME,bound_10_30_50_70_90,0.2,2.3,8,15.1,26,1,13,45,85,146,Gerber Reservoir Inflow
+2010,2,APR-SEP VOLUME,bound_10_30_50_70_90,0.7,2.5,8.8,15.1,24,4,14,49,85,135,Gerber Reservoir Inflow
+2010,3,APR-SEP VOLUME,bound_10_30_50_70_90,0.2,2,5,8.5,15,1,11,28,48,84,Gerber Reservoir Inflow
+2010,4,APR-SEP VOLUME,bound_10_30_50_70_90,0.5,2.3,6,10.8,17.9,3,13,34,61,101,Gerber Reservoir Inflow
+2010,5,MAY-SEP VOLUME,bound_10_30_50_70_90,0.13,0.66,2.1,6.1,12,2,10,32,92,182,Gerber Reservoir Inflow
+2010,6,JUN-SEP VOLUME,bound_10_30_50_70_90,0.1,0.36,1,2,3.6,4,15,42,83,150,Gerber Reservoir Inflow

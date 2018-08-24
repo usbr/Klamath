@@ -1,0 +1,5 @@
+ID,Observed,Simulated
+CLEAR,CLEAR_Recl_obs_flow_dly_cfs.csv,wbvars_txt_CLEAR_cfs.csv
+IGERB,IGERB_Recl_obs_flow_dly_cfs.csv,wbvars_txt_IGERB_cfs.csv
+SPRAG,SPRAG_usgs_daily_cfs_11501000_txt_adj.csv,wbvars_txt_SPRAG_cfs.csv
+WILLILOC,WILLILOC_usgs_daily_cfs_11502500_txt_adj.csv,wbvars_txt_WILLI_cfs.csv
