@@ -1,0 +1,4 @@
+units: cfs
+scale: 1
+# Scalar Slot: InitialConditions.Copco to Iron Gate Routing[cfs]
+1200
