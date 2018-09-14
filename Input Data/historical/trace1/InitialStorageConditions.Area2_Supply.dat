@@ -1,0 +1,4 @@
+units: acre-feet
+scale: 1
+# Scalar Slot: InitialStorageConditions.Area2 Supply[acre-feet]
+5e+05
