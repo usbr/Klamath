@@ -3,8 +3,8 @@
 # Author: D. Broman, USBR Technical Service Center
 # Last Modified: 2017-05-09
 # Description: Reads in RiverWare data files from the Upper
-# Missouri River Basin model and calculates performance 
-# measures. 
+# Missouri River Basin model and calculates performance
+# measures.
 #===========================================================
 # User Inputs:
 
@@ -46,7 +46,7 @@ for(iterFile in 1:ctFile){
 		filter(mnthStrt >= Issue_month)
 	datTmp = datTmp %>% dplyr::select(Issue_year, Issue_month, Target_Name, Prob_exceedence_levels, Fcst_min_vol, Fcst_low_vol, Fcst_mid_vol, Fcst_upp_vol, Fcst_max_vol, Fcst_min_pct, Fcst_low_pct, Fcst_mid_pct, Fcst_upp_pct, Fcst_max_pct)
 	datTmp$Fcst_upp_vol = as.numeric(datTmp$Fcst_upp_vol)
-	datTmp$Fcst_max_vol = as.numeric(datTmp$Fcst_max_vol)	
+	datTmp$Fcst_max_vol = as.numeric(datTmp$Fcst_max_vol)
 	datOut = bind_rows(datOut, datTmp)
 }
 datOut = datOut %>% dplyr::filter(Issue_year == 2006 | Issue_year == 2010)
@@ -76,7 +76,7 @@ for(iterFile in 1:ctFile){
 		filter(mnthStrt >= Issue_month)
 	datTmp = datTmp %>% dplyr::select(Issue_year, Issue_month, Target_Name, Prob_exceedence_levels, Fcst_min_vol, Fcst_low_vol, Fcst_mid_vol, Fcst_upp_vol, Fcst_max_vol, Fcst_min_pct, Fcst_low_pct, Fcst_mid_pct, Fcst_upp_pct, Fcst_max_pct)
 	datTmp$Fcst_upp_vol = as.numeric(datTmp$Fcst_upp_vol)
-	datTmp$Fcst_max_vol = as.numeric(datTmp$Fcst_max_vol)	
+	datTmp$Fcst_max_vol = as.numeric(datTmp$Fcst_max_vol)
 	datOut = bind_rows(datOut, datTmp)
 }
 datOut = datOut %>% dplyr::filter(Issue_year == 2006 | Issue_year == 2010)
@@ -101,13 +101,13 @@ for(iterFile in 1:ctFile){
 #	datTmp = fread(paste0(dirDat, fileSel))
 	datTmp = fread(paste0(dirNRCS, fileSel))
 #	datTmp = datTmp %>% filter(Location_name %in% locSel)
-	datTmp = datTmp %>% filter(Location_name %like% 'GERBER' | Location_name %like% 'Gerber')	
+	datTmp = datTmp %>% filter(Location_name %like% 'GERBER' | Location_name %like% 'Gerber')
 	datTmp = datTmp %>% left_join(trgtTbl) %>%
 		filter(!is.na(mnthStrt)) %>%
 		filter(mnthStrt >= Issue_month)
 	datTmp = datTmp %>% dplyr::select(Issue_year, Issue_month, Target_Name, Prob_exceedence_levels, Fcst_min_vol, Fcst_low_vol, Fcst_mid_vol, Fcst_upp_vol, Fcst_max_vol, Fcst_min_pct, Fcst_low_pct, Fcst_mid_pct, Fcst_upp_pct, Fcst_max_pct)
 	datTmp$Fcst_upp_vol = as.numeric(datTmp$Fcst_upp_vol)
-	datTmp$Fcst_max_vol = as.numeric(datTmp$Fcst_max_vol)	
+	datTmp$Fcst_max_vol = as.numeric(datTmp$Fcst_max_vol)
 	datOut = bind_rows(datOut, datTmp)
 }
 datOut = datOut %>% dplyr::filter(Issue_year == 2006 | Issue_year == 2010)
@@ -120,7 +120,7 @@ write.csv(datOut, paste0(dirOup, 'nrcsGerberFcst.csv'), row.names = F, quote = F
 
 
 # Clear Lake Inflow
-locSel = c('CLEAR LAKE NET INFLOW (2)',	'CLEAR LAKE net Inflow  (2)', 'Clear Lake Inflow (2)', 'Clear Lk Inflow (2)', )
+locSel = c('CLEAR LAKE NET INFLOW (2)',	'CLEAR LAKE net Inflow  (2)', 'Clear Lake Inflow (2)', 'Clear Lk Inflow (2)')
 
 #fileList = list.files(dirDat, pattern = 'fcstout_')
 fileList = list.files(dirNRCS, pattern = 'fcstout_')
@@ -139,9 +139,9 @@ for(iterFile in 1:ctFile){
 		filter(mnthStrt >= Issue_month)
 	datTmp = datTmp %>% dplyr::select(Issue_year, Issue_month, Target_Name, Prob_exceedence_levels, Fcst_min_vol, Fcst_low_vol, Fcst_mid_vol, Fcst_upp_vol, Fcst_max_vol, Fcst_min_pct, Fcst_low_pct, Fcst_mid_pct, Fcst_upp_pct, Fcst_max_pct)
 	datTmp$Fcst_upp_vol = as.numeric(datTmp$Fcst_upp_vol)
-	datTmp$Fcst_max_vol = as.numeric(datTmp$Fcst_max_vol)	
+	datTmp$Fcst_max_vol = as.numeric(datTmp$Fcst_max_vol)
 	datOut = bind_rows(datOut, datTmp)
 }
-datOut = datOut %>% dplyr::filter(Issue_year == 2006 | Issue_year == 2010)
+#datOut = datOut %>% dplyr::filter(Issue_year == 2006 | Issue_year == 2010)
 datOut$Location = 'Clear Lake Inflow'
-write.csv(datOut, paste0(dirOup, 'nrcsClearFcst.csv'), row.names = F, quote = F)
+write.csv(datOut, paste0(dirOup, 'nrcsClearFcstAll.csv'), row.names = F, quote = F)

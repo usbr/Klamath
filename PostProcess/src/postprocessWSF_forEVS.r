@@ -83,4 +83,5 @@ for(iterFile in 1:ctFiles){
 	outFile = natflow %>% dplyr::mutate(date2 = paste0(format(as.Date(paste0(Year,'-',mon,'-',01)), '%m/%d/%Y'),' 12')) %>% dplyr::select(date2, Value_obs)
 	write.table(outFile,file=paste0(dirEVS,'EVS_flow_obs_Mar-Nov',obsNames[iterFile],'.obs'),row.names=FALSE,col.names=FALSE,quote=F,sep='\t')
 
+
 }
