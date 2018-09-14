@@ -6,29 +6,29 @@ library(gplots)
 ####READ IN DATA FOR FOUR PLOTS
 
 #XML output from EVS containing the reliability data
-#This example plots two scenarios for two locations, namely before and after bias-correction. 
-#The locations are in the rows and the scenarios are in the columns 
+#This example plots two scenarios for two locations, namely before and after bias-correction.
+#The locations are in the rows and the scenarios are in the columns
+
+source('C:/Users/MMcguire/Documents/GitHub/Klamath/PostProcess/src/Utilities.r')
 
 #Top-level directory TO EDIT
-root<-""
+root<-"C:/Projects/KlamathRiverBasin/EVS_5.6/xml_output"
 #Data directory constructed from root directory (should not need to modify)
-data<-paste(root,"/nonsrc/rscripts/example_scripts/example_evs_out/",sep="")
+data<-paste(root,"/",sep="")
 
-loc.a<-"05455500"
-loc.b<-"07378500"
+loc.a<-"SPRAG.default_variable.NCAR"
+loc.b<-"WILLI.default_variable.NCAR"
 loc.a.events<-c(5,6,8,10)
 loc.b.events<-c(5,6,8,9)
-loc.a.raw<-paste(data,paste(loc.a,"_raw.Reliability_diagram.xml",sep=""),sep="")
-loc.a.cor<-paste(data,paste(loc.a,"_corrected.Reliability_diagram.xml",sep=""),sep="")
-loc.b.raw<-paste(data,paste(loc.b,"_raw.Reliability_diagram.xml",sep=""),sep="")
-loc.b.cor<-paste(data,paste(loc.b,"_corrected.Reliability_diagram.xml",sep=""),sep="")
+loc.a.raw<-paste(data,paste(loc.a,".Reliability_diagram.xml",sep=""),sep="")
+loc.b.raw<-paste(data,paste(loc.b,".Reliability_diagram.xml",sep=""),sep="")
 
 ####################
 #Output
 ####################
 
 #Not needed to display only
-outfile<-""
+outfile<-"final_test"
 
 #True to write, false to display
 postscript<-FALSE
@@ -38,15 +38,13 @@ if(postscript==TRUE) {
 }
 
 loc.a.raw.rel<-readEVSDiagrams(loc.a.raw,3)
-loc.a.cor.rel<-readEVSDiagrams(loc.a.cor,3)
 loc.b.raw.rel<-readEVSDiagrams(loc.b.raw,3)
-loc.b.cor.rel<-readEVSDiagrams(loc.b.cor,3)
 
 #Indices of events to display
 p1.events<-loc.a.events
-p2.events<-loc.a.events  
-p3.events<-loc.b.events 
-p4.events<-loc.b.events 
+p2.events<-loc.a.events
+p3.events<-loc.b.events
+p4.events<-loc.b.events
 
 events<-c("0.25","0.1","0.01","0.005")
 
@@ -64,8 +62,8 @@ for(i in 1: length(p1.events)) {
 	next.data<-next.event[[1]]
 	next.vals<-matrix(nrow=2,ncol=ncol(next.data))
 	next.low<-matrix(nrow=2,ncol=ncol(next.data))
-	next.high<-matrix(nrow=2,ncol=ncol(next.data))	
-	next.sample<-matrix(nrow=2,ncol=ncol(next.data))	
+	next.high<-matrix(nrow=2,ncol=ncol(next.data))
+	next.sample<-matrix(nrow=2,ncol=ncol(next.data))
 	next.vals[1,]<-next.data[1,]
 	next.vals[2,]<-next.data[4,]
 	next.low[1,]<-next.data[1,]
@@ -73,38 +71,11 @@ for(i in 1: length(p1.events)) {
 	next.high[1,]<-next.data[1,]
 	next.high[2,]<-next.data[6,]
 	next.sample[1,]<-next.data[1,]
-	next.sample[2,]<-next.data[7,]	
+	next.sample[2,]<-next.data[7,]
 	p1.data[[i]]<-next.vals
 	p1.low[[i]]<-next.low
 	p1.high[[i]]<-next.high
 	p1.sample[[i]]<-next.sample
-}
-
-#Plot 2
-p2.data<-vector("list")
-p2.low<-vector("list")
-p2.high<-vector("list")
-p2.sample<-vector("list")
-for(i in 1: length(p2.events)) {
-	next.time<-loc.a.cor.rel$diagram.data[[time]]
-	next.event<-next.time[p2.events[i]]
-	next.data<-next.event[[1]]
-	next.vals<-matrix(nrow=2,ncol=ncol(next.data))
-	next.low<-matrix(nrow=2,ncol=ncol(next.data))
-	next.high<-matrix(nrow=2,ncol=ncol(next.data))	
-	next.sample<-matrix(nrow=2,ncol=ncol(next.data))	
-	next.vals[1,]<-next.data[1,]
-	next.vals[2,]<-next.data[4,]
-	next.low[1,]<-next.data[1,]
-	next.low[2,]<-next.data[5,]
-	next.high[1,]<-next.data[1,]
-	next.high[2,]<-next.data[6,]
-	next.sample[1,]<-next.data[1,]
-	next.sample[2,]<-next.data[7,]	
-	p2.data[[i]]<-next.vals
-	p2.low[[i]]<-next.low
-	p2.high[[i]]<-next.high
-	p2.sample[[i]]<-next.sample
 }
 
 #Plot 3
@@ -118,8 +89,8 @@ for(i in 1: length(p3.events)) {
 	next.data<-next.event[[1]]
 	next.vals<-matrix(nrow=2,ncol=ncol(next.data))
 	next.low<-matrix(nrow=2,ncol=ncol(next.data))
-	next.high<-matrix(nrow=2,ncol=ncol(next.data))	
-	next.sample<-matrix(nrow=2,ncol=ncol(next.data))	
+	next.high<-matrix(nrow=2,ncol=ncol(next.data))
+	next.sample<-matrix(nrow=2,ncol=ncol(next.data))
 	next.vals[1,]<-next.data[1,]
 	next.vals[2,]<-next.data[4,]
 	next.low[1,]<-next.data[1,]
@@ -127,38 +98,11 @@ for(i in 1: length(p3.events)) {
 	next.high[1,]<-next.data[1,]
 	next.high[2,]<-next.data[6,]
 	next.sample[1,]<-next.data[1,]
-	next.sample[2,]<-next.data[7,]	
+	next.sample[2,]<-next.data[7,]
 	p3.data[[i]]<-next.vals
 	p3.low[[i]]<-next.low
 	p3.high[[i]]<-next.high
 	p3.sample[[i]]<-next.sample
-}
-
-#Plot 4
-p4.data<-vector("list")
-p4.low<-vector("list")
-p4.high<-vector("list")
-p4.sample<-vector("list")
-for(i in 1: length(p4.events)) {
-	next.time<-loc.b.cor.rel$diagram.data[[time]]
-	next.event<-next.time[p4.events[i]]
-	next.data<-next.event[[1]]
-	next.vals<-matrix(nrow=2,ncol=ncol(next.data))
-	next.low<-matrix(nrow=2,ncol=ncol(next.data))
-	next.high<-matrix(nrow=2,ncol=ncol(next.data))	
-	next.sample<-matrix(nrow=2,ncol=ncol(next.data))	
-	next.vals[1,]<-next.data[1,]
-	next.vals[2,]<-next.data[4,]
-	next.low[1,]<-next.data[1,]
-	next.low[2,]<-next.data[5,]
-	next.high[1,]<-next.data[1,]
-	next.high[2,]<-next.data[6,]
-	next.sample[1,]<-next.data[1,]
-	next.sample[2,]<-next.data[7,]	
-	p4.data[[i]]<-next.vals
-	p4.low[[i]]<-next.low
-	p4.high[[i]]<-next.high
-	p4.sample[[i]]<-next.sample
 }
 
 #########PLOT PARAMETERS############
@@ -208,7 +152,7 @@ label.pos.y<-0.082
 #Min, max and freq. of sample y-axis in log space
 sample.ymin<-4
 sample.ymax<-12
-sample.freq<-2 
+sample.freq<-2
 
 #Legend position
 legend.pos = "topright"
@@ -256,10 +200,10 @@ text(0.27,0.91,dat,cex=1.1,font=1)
 
 #Plot CIs
 if(plotCIs) {
-	if(plotBars) {	
+	if(plotBars) {
 		for(i in length(p1.events):1) {
-			plotCI(x = p1.data[[i]][1,], y = p1.data[[i]][2,], ui=p1.high[[i]][2,], 
-				li=p1.low[[i]][2,], type="n",  col=colors[i], barcol=colors[i], pt.bg = par("bg"), 
+			plotCI(x = p1.data[[i]][1,], y = p1.data[[i]][2,], ui=p1.high[[i]][2,],
+				li=p1.low[[i]][2,], type="n",  col=colors[i], barcol=colors[i], pt.bg = par("bg"),
 				sfrac = 0.01, gap=0, lwd=error.width,lty="solid",labels=FALSE, add=TRUE)
 		}
 	} else if(plotRegions) {
@@ -281,12 +225,12 @@ if(plotCIs) {
 			lines(p1.data[[i]][1,],p1.data[[i]][2,],type=line.type,col=colors[i],lwd=line.width)
 			lines(p1.data[[i]][1,],p1.low[[i]][2,],type="l",col=error.shaded.line.colors[plot.me[i]],lwd=error.width,lty=error.lines.lty)
 			lines(p1.data[[i]][1,],p1.high[[i]][2,],type="l",col=error.shaded.line.colors[plot.me[i]],lwd=error.width,lty=error.lines.lty)
-		}	
+		}
 	} else {
 		for(i in length(p1.events):1) {
 			lines(p1.areas,p1.low[[i]],type="l",col=colors[i],lwd=error.width,lty=error.lines.lty)
 			lines(p1.areas,p1.high[[i]],type="l",col=colors[i],lwd=error.width,lty=error.lines.lty)
-		}	
+		}
 	}
 }
 
@@ -333,10 +277,10 @@ text(0.27,0.91,dat,cex=1.1,font=1)
 
 #Plot CIs
 if(plotCIs) {
-	if(plotBars) {	
+	if(plotBars) {
 		for(i in length(p2.events):1) {
-			plotCI(x = p2.data[[i]][1,], y = p2.data[[i]][2,], ui=p2.high[[i]][2,], 
-				li=p2.low[[i]][2,], type="n",  col=colors[i], barcol=colors[i], pt.bg = par("bg"), 
+			plotCI(x = p2.data[[i]][1,], y = p2.data[[i]][2,], ui=p2.high[[i]][2,],
+				li=p2.low[[i]][2,], type="n",  col=colors[i], barcol=colors[i], pt.bg = par("bg"),
 				sfrac = 0.01, gap=0, lwd=error.width,lty="solid",labels=FALSE, add=TRUE)
 		}
 	} else if(plotRegions) {
@@ -358,12 +302,12 @@ if(plotCIs) {
 			lines(p2.data[[i]][1,],p2.data[[i]][2,],type=line.type,col=colors[i],lwd=line.width)
 			lines(p2.data[[i]][1,],p2.low[[i]][2,],type="l",col=error.shaded.line.colors[plot.me[i]],lwd=error.width,lty=error.lines.lty)
 			lines(p2.data[[i]][1,],p2.high[[i]][2,],type="l",col=error.shaded.line.colors[plot.me[i]],lwd=error.width,lty=error.lines.lty)
-		}	
+		}
 	} else {
 		for(i in length(p2.events):1) {
 			lines(p2.areas,p2.low[[i]],type="l",col=colors[i],lwd=error.width,lty=error.lines.lty)
 			lines(p2.areas,p2.high[[i]],type="l",col=colors[i],lwd=error.width,lty=error.lines.lty)
-		}	
+		}
 	}
 }
 
@@ -407,10 +351,10 @@ text(0.27,0.91,dat,cex=1.1,font=1)
 
 #Plot CIs
 if(plotCIs) {
-	if(plotBars) {	
+	if(plotBars) {
 		for(i in length(p3.events):1) {
-			plotCI(x = p3.data[[i]][1,], y = p3.data[[i]][2,], ui=p3.high[[i]][2,], 
-				li=p3.low[[i]][2,], type="n",  col=colors[i], barcol=colors[i], pt.bg = par("bg"), 
+			plotCI(x = p3.data[[i]][1,], y = p3.data[[i]][2,], ui=p3.high[[i]][2,],
+				li=p3.low[[i]][2,], type="n",  col=colors[i], barcol=colors[i], pt.bg = par("bg"),
 				sfrac = 0.01, gap=0, lwd=error.width,lty="solid",labels=FALSE, add=TRUE)
 		}
 	} else if(plotRegions) {
@@ -432,12 +376,12 @@ if(plotCIs) {
 			lines(p3.data[[i]][1,],p3.data[[i]][2,],type=line.type,col=colors[i],lwd=line.width)
 			lines(p3.data[[i]][1,],p3.low[[i]][2,],type="l",col=error.shaded.line.colors[plot.me[i]],lwd=error.width,lty=error.lines.lty)
 			lines(p3.data[[i]][1,],p3.high[[i]][2,],type="l",col=error.shaded.line.colors[plot.me[i]],lwd=error.width,lty=error.lines.lty)
-		}	
+		}
 	} else {
 		for(i in length(p3.events):1) {
 			lines(p3.areas,p3.low[[i]],type="l",col=colors[i],lwd=error.width,lty=error.lines.lty)
 			lines(p3.areas,p3.high[[i]],type="l",col=colors[i],lwd=error.width,lty=error.lines.lty)
-		}	
+		}
 	}
 }
 
@@ -481,10 +425,10 @@ text(0.27,0.91,dat,cex=1.1,font=1)
 
 #Plot CIs
 if(plotCIs) {
-	if(plotBars) {	
+	if(plotBars) {
 		for(i in length(p4.events):1) {
-			plotCI(x = p4.data[[i]][1,], y = p4.data[[i]][2,], ui=p4.high[[i]][2,], 
-				li=p4.low[[i]][2,], type="n",  col=colors[i], barcol=colors[i], pt.bg = par("bg"), 
+			plotCI(x = p4.data[[i]][1,], y = p4.data[[i]][2,], ui=p4.high[[i]][2,],
+				li=p4.low[[i]][2,], type="n",  col=colors[i], barcol=colors[i], pt.bg = par("bg"),
 				sfrac = 0.01, gap=0, lwd=error.width,lty="solid",labels=FALSE, add=TRUE)
 		}
 	} else if(plotRegions) {
@@ -506,12 +450,12 @@ if(plotCIs) {
 			lines(p4.data[[i]][1,],p4.data[[i]][2,],type=line.type,col=colors[i],lwd=line.width)
 			lines(p4.data[[i]][1,],p4.low[[i]][2,],type="l",col=error.shaded.line.colors[plot.me[i]],lwd=error.width,lty=error.lines.lty)
 			lines(p4.data[[i]][1,],p4.high[[i]][2,],type="l",col=error.shaded.line.colors[plot.me[i]],lwd=error.width,lty=error.lines.lty)
-		}	
+		}
 	} else {
 		for(i in length(p4.events):1) {
 			lines(p4.areas,p4.low[[i]],type="l",col=colors[i],lwd=error.width,lty=error.lines.lty)
 			lines(p4.areas,p4.high[[i]],type="l",col=colors[i],lwd=error.width,lty=error.lines.lty)
-		}	
+		}
 	}
 }
 

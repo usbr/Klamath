@@ -206,4 +206,16 @@ cc_tmp = data.table(cc$scores)
 cc_tmp = cc_tmp %>% dplyr::mutate(Location = "SPRAG", metric = "COR",source='NCAR')
 metrics_final = bind_rows(metrics_final,cc_tmp[1,])
 
+#proc Brier Score data from xml files - NCAR
+bs = readEVSScores('C:/Projects/KlamathRiverBasin/EVS_5.6/xml_output/WILLI.default_variable.NCAR.Brier_score.xml')
+colnames(bs$scores)<-c('L0','L720','L1440','L2160')
+bs_tmp = data.table(bs$scores)
+bs_tmp = bs_tmp %>% dplyr::mutate(Location = "WILLI", metric = "BrierScore",source='NCAR')
+metrics_final = bind_rows(metrics_final,bs_tmp[1,])
+bs = readEVSScores('C:/Projects/KlamathRiverBasin/EVS_5.6/xml_output/SPRAG.default_variable.NCAR.Brier_score.xml')
+colnames(bs$scores)<-c('L0','L720','L1440','L2160')
+bs_tmp = data.table(bs$scores)
+bs_tmp = bs_tmp %>% dplyr::mutate(Location = "SPRAG", metric = "BrierScore",source='NCAR')
+metrics_final = bind_rows(metrics_final,bs_tmp[1,])
+
 write.csv(metrics_final,file='C:/Projects/KlamathRiverBasin/EVS_5.6/deterministic_metrics.csv',row.names=FALSE,quote=F)
